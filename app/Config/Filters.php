@@ -24,6 +24,9 @@ class Filters extends BaseConfig
         'honeypot'      => Honeypot::class,
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
+         'AuthCheck' => AuthCheckFilter::class,
+        'AlreadyLoggedIn' => AlreadyLoggedInFilter::class,
+        'AdminCheck' => AdminFilter::class,
     ];
 
     /**

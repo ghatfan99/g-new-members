@@ -17,6 +17,19 @@ class App extends BaseConfig
      *    http://example.com/
      */
     public string $baseURL = 'http://localhost:8080/';
+    
+    public $urlSiloseBackend = 'http://localhost/silose';
+    
+    /*
+	|--------------------------------------------------------------------------
+	| APi_Key BACKEND API
+	|--------------------------------------------------------------------------
+	|
+	| The api_key is given by backend silose app
+	|  
+	|
+	*/
+    public $api_key = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJub21faG9zdCI6ImxvY2FsaG9zdCIsImFkcmVzc2VfaXAiOiI6OjEifQ.0LS9nDn-wlgvqEv5XI-DanGHvno_-HNsB0hp1gzIIZQ';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
@@ -69,7 +82,7 @@ class App extends BaseConfig
      * strings (like currency markers, numbers, etc), that your program
      * should run under for this request.
      */
-    public string $defaultLocale = 'en';
+    public string $defaultLocale = 'fr';
 
     /**
      * --------------------------------------------------------------------------
