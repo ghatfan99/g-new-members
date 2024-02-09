@@ -25,7 +25,13 @@ class AdminFilter implements FilterInterface
      */
     public function before(RequestInterface $request, $arguments = null)
     {
-        //
+          if (session()->has('logged_user')) {
+            if (session()->get('role') == 'f') {
+                return redirect()->back()->with('fail', 'Vous n\'avez pas le droit d\'accéder à cette page');
+            }
+        } else {
+            return redirect()->to('/auth')->with('fail', 'Vous devez être connecté pour accéder à cette page');
+        }
     }
 
     /**
