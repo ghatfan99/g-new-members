@@ -1,0 +1,1247 @@
+[
+  {
+    "code_iso_pays": "AD",
+    "pays": "ANDORRE",
+    "nationalite": "Andorrane "
+  },
+  {
+    "code_iso_pays": "AE",
+    "pays": "ÉMIRATS ARABES UNIS",
+    "nationalite": "Émiratie"
+  },
+  {
+    "code_iso_pays": "AF",
+    "pays": "AFGHANISTAN",
+    "nationalite": "Afghane "
+  },
+  {
+    "code_iso_pays": "AG",
+    "pays": "ANTIGUA-ET-BARBUDA",
+    "nationalite": "Antiguaise et barbudienne "
+  },
+  {
+    "code_iso_pays": "AI",
+    "pays": "ANGUILLA",
+    "nationalite": "ANGUILLA"
+  },
+  {
+    "code_iso_pays": "AL",
+    "pays": "ALBANIE",
+    "nationalite": "Albanaise "
+  },
+  {
+    "code_iso_pays": "AM",
+    "pays": "ARMÉNIE",
+    "nationalite": "Armenienne "
+  },
+  {
+    "code_iso_pays": "AO",
+    "pays": "ANGOLA",
+    "nationalite": "Angolaise "
+  },
+  {
+    "code_iso_pays": "AQ",
+    "pays": "ANTARCTIQUE",
+    "nationalite": "ANTARCTIQUE"
+  },
+  {
+    "code_iso_pays": "AR",
+    "pays": "ARGENTINE",
+    "nationalite": "Argentine "
+  },
+  {
+    "code_iso_pays": "AS",
+    "pays": "SAMOA AMÉRICAINES",
+    "nationalite": "SAMOA AMÉRICAINES"
+  },
+  {
+    "code_iso_pays": "AT",
+    "pays": "AUTRICHE",
+    "nationalite": "Autrichienne "
+  },
+  {
+    "code_iso_pays": "AU",
+    "pays": "AUSTRALIE",
+    "nationalite": "Australienne "
+  },
+  {
+    "code_iso_pays": "AW",
+    "pays": "ARUBA",
+    "nationalite": "ARUBA"
+  },
+  {
+    "code_iso_pays": "AX",
+    "pays": "ÅLAND, ÎLES",
+    "nationalite": "ÅLAND, ÎLES"
+  },
+  {
+    "code_iso_pays": "AZ",
+    "pays": "AZERBAÏDJAN",
+    "nationalite": "Azerbaïdjanaise "
+  },
+  {
+    "code_iso_pays": "BA",
+    "pays": "BOSNIE-HERZÉGOVINE",
+    "nationalite": "Bosnienne "
+  },
+  {
+    "code_iso_pays": "BB",
+    "pays": "BARBADE",
+    "nationalite": "BARBADE"
+  },
+  {
+    "code_iso_pays": "BD",
+    "pays": "BANGLADESH",
+    "nationalite": "Bangladaise "
+  },
+  {
+    "code_iso_pays": "BE",
+    "pays": "BELGIQUE",
+    "nationalite": "Belge "
+  },
+  {
+    "code_iso_pays": "BF",
+    "pays": "BURKINA FASO",
+    "nationalite": "Burkinabé"
+  },
+  {
+    "code_iso_pays": "BG",
+    "pays": "BULGARIE",
+    "nationalite": "Bulgare "
+  },
+  {
+    "code_iso_pays": "BH",
+    "pays": "BAHREÏN",
+    "nationalite": "Bahreinienne "
+  },
+  {
+    "code_iso_pays": "BI",
+    "pays": "BURUNDI",
+    "nationalite": "Burundaise "
+  },
+  {
+    "code_iso_pays": "BJ",
+    "pays": "BÉNIN",
+    "nationalite": "Béninoise "
+  },
+  {
+    "code_iso_pays": "BL",
+    "pays": "SAINT-BARTHÉLEMY",
+    "nationalite": "SAINT-BARTHÉLEMY"
+  },
+  {
+    "code_iso_pays": "BM",
+    "pays": "BERMUDES",
+    "nationalite": "BERMUDES"
+  },
+  {
+    "code_iso_pays": "BN",
+    "pays": "BRUNEI DARUSSALAM",
+    "nationalite": "BRUNEI DARUSSALAM"
+  },
+  {
+    "code_iso_pays": "BO",
+    "pays": "BOLIVIE",
+    "nationalite": "Bolivienne "
+  },
+  {
+    "code_iso_pays": "BQ",
+    "pays": "BONAIRE, SAINT-EUSTACHE ET SABA",
+    "nationalite": "BONAIRE, SAINT-EUSTACHE ET SABA"
+  },
+  {
+    "code_iso_pays": "BR",
+    "pays": "BRÉSIL",
+    "nationalite": "Brésilienne "
+  },
+  {
+    "code_iso_pays": "BS",
+    "pays": "BAHAMAS",
+    "nationalite": "Bahamienne "
+  },
+  {
+    "code_iso_pays": "BT",
+    "pays": "BHOUTAN",
+    "nationalite": "Bhoutanaise "
+  },
+  {
+    "code_iso_pays": "BV",
+    "pays": "BOUVET, ÎLE",
+    "nationalite": "BOUVET, ÎLE"
+  },
+  {
+    "code_iso_pays": "BW",
+    "pays": "BOTSWANA",
+    "nationalite": "Botswanaise "
+  },
+  {
+    "code_iso_pays": "BY",
+    "pays": "BIÉLARUSSIE",
+    "nationalite": "Biélorusse "
+  },
+  {
+    "code_iso_pays": "BZ",
+    "pays": "BELIZE",
+    "nationalite": "Belizienne "
+  },
+  {
+    "code_iso_pays": "CA",
+    "pays": "CANADA",
+    "nationalite": "Canadienne "
+  },
+  {
+    "code_iso_pays": "CC",
+    "pays": "COCOS (KEELING), ÎLES",
+    "nationalite": "COCOS (KEELING), ÎLES"
+  },
+  {
+    "code_iso_pays": "CD",
+    "pays": "CONGO, LA RÉPUBLIQUE DÉMOCRATIQUE DU",
+    "nationalite": "CONGO, LA RÉPUBLIQUE DÉMOCRATIQUE DU"
+  },
+  {
+    "code_iso_pays": "CF",
+    "pays": "CENTRAFRICAINE, RÉPUBLIQUE",
+    "nationalite": "CENTRAFRICAINE, RÉPUBLIQUE"
+  },
+  {
+    "code_iso_pays": "CG",
+    "pays": "CONGO",
+    "nationalite": "Congolaise "
+  },
+  {
+    "code_iso_pays": "CH",
+    "pays": "SUISSE",
+    "nationalite": "Suisse "
+  },
+  {
+    "code_iso_pays": "CI",
+    "pays": "CÔTE D'IVOIRE",
+    "nationalite": "Ivoirienne"
+  },
+  {
+    "code_iso_pays": "CK",
+    "pays": "COOK, ÎLES",
+    "nationalite": "COOK, ÎLES"
+  },
+  {
+    "code_iso_pays": "CL",
+    "pays": "CHILI",
+    "nationalite": "Chilienne "
+  },
+  {
+    "code_iso_pays": "CM",
+    "pays": "CAMEROUN",
+    "nationalite": "Camerounaise "
+  },
+  {
+    "code_iso_pays": "CN",
+    "pays": "CHINE",
+    "nationalite": "Chinoise "
+  },
+  {
+    "code_iso_pays": "CO",
+    "pays": "COLOMBIE",
+    "nationalite": "Colombienne "
+  },
+  {
+    "code_iso_pays": "CR",
+    "pays": "COSTA RICA",
+    "nationalite": "Costaricaine "
+  },
+  {
+    "code_iso_pays": "CU",
+    "pays": "CUBA",
+    "nationalite": "Cubaine "
+  },
+  {
+    "code_iso_pays": "CV",
+    "pays": "CAP-VERT",
+    "nationalite": "Cap-verdienne "
+  },
+  {
+    "code_iso_pays": "CW",
+    "pays": "CURAÇAO",
+    "nationalite": "CURAÇAO"
+  },
+  {
+    "code_iso_pays": "CX",
+    "pays": "CHRISTMAS, ÎLE",
+    "nationalite": "CHRISTMAS, ÎLE"
+  },
+  {
+    "code_iso_pays": "CY",
+    "pays": "CHYPRE",
+    "nationalite": "Chypriote "
+  },
+  {
+    "code_iso_pays": "CZ",
+    "pays": "TCHÈQUE",
+    "nationalite": "Tchèque "
+  },
+  {
+    "code_iso_pays": "DE",
+    "pays": "ALLEMAGNE",
+    "nationalite": "Allemande "
+  },
+  {
+    "code_iso_pays": "DJ",
+    "pays": "DJIBOUTI",
+    "nationalite": "Djiboutienne "
+  },
+  {
+    "code_iso_pays": "DK",
+    "pays": "DANEMARK",
+    "nationalite": "Danoise "
+  },
+  {
+    "code_iso_pays": "DM",
+    "pays": "DOMINIQUE",
+    "nationalite": "Dominiquaise "
+  },
+  {
+    "code_iso_pays": "DO",
+    "pays": "DOMINICAINE, RÉPUBLIQUE",
+    "nationalite": "Dominicaine "
+  },
+  {
+    "code_iso_pays": "DZ",
+    "pays": "ALGÉRIE",
+    "nationalite": "Algerienne "
+  },
+  {
+    "code_iso_pays": "EC",
+    "pays": "ÉQUATEUR",
+    "nationalite": "Equatorienne "
+  },
+  {
+    "code_iso_pays": "EE",
+    "pays": "ESTONIE",
+    "nationalite": "Estonienne "
+  },
+  {
+    "code_iso_pays": "EG",
+    "pays": "ÉGYPTE",
+    "nationalite": "Égyptienne "
+  },
+  {
+    "code_iso_pays": "EH",
+    "pays": "SAHARA OCCIDENTAL",
+    "nationalite": "SAHARA OCCIDENTAL"
+  },
+  {
+    "code_iso_pays": "ER",
+    "pays": "ÉRYTHRÉE",
+    "nationalite": "Érythréenne "
+  },
+  {
+    "code_iso_pays": "ES",
+    "pays": "ESPAGNE",
+    "nationalite": "Espagnole"
+  },
+  {
+    "code_iso_pays": "ET",
+    "pays": "ÉTHIOPIE",
+    "nationalite": "Éthiopienne "
+  },
+  {
+    "code_iso_pays": "FI",
+    "pays": "FINLANDE",
+    "nationalite": "Finlandaise "
+  },
+  {
+    "code_iso_pays": "FJ",
+    "pays": "FIDJI",
+    "nationalite": "Fidjienne "
+  },
+  {
+    "code_iso_pays": "FK",
+    "pays": "FALKLAND, ÎLES (MALVINAS)",
+    "nationalite": "FALKLAND, ÎLES (MALVINAS)"
+  },
+  {
+    "code_iso_pays": "FM",
+    "pays": "MICRONÉSIE, ÉTATS FÉDÉRÉS DE",
+    "nationalite": "MICRONÉSIE, ÉTATS FÉDÉRÉS DE"
+  },
+  {
+    "code_iso_pays": "FO",
+    "pays": "FÉROÉ, ÎLES",
+    "nationalite": "FÉROÉ, ÎLES"
+  },
+  {
+    "code_iso_pays": "FR",
+    "pays": "FRANCE",
+    "nationalite": "Française "
+  },
+  {
+    "code_iso_pays": "GA",
+    "pays": "GABON",
+    "nationalite": "Gabonaise "
+  },
+  {
+    "code_iso_pays": "GB",
+    "pays": "ROYAUME-UNI",
+    "nationalite": "Britannique "
+  },
+  {
+    "code_iso_pays": "GD",
+    "pays": "GRENADE",
+    "nationalite": "Grenadienne "
+  },
+  {
+    "code_iso_pays": "GE",
+    "pays": "GÉORGIE",
+    "nationalite": "Géorgienne "
+  },
+  {
+    "code_iso_pays": "GF",
+    "pays": "GUYANE FRANÇAISE",
+    "nationalite": "GUYANE FRANÇAISE"
+  },
+  {
+    "code_iso_pays": "GG",
+    "pays": "GUERNESEY",
+    "nationalite": "GUERNESEY"
+  },
+  {
+    "code_iso_pays": "GH",
+    "pays": "GHANA",
+    "nationalite": "Ghanéenne "
+  },
+  {
+    "code_iso_pays": "GI",
+    "pays": "GIBRALTAR",
+    "nationalite": "GIBRALTAR"
+  },
+  {
+    "code_iso_pays": "GL",
+    "pays": "GROENLAND",
+    "nationalite": "GROENLAND"
+  },
+  {
+    "code_iso_pays": "GM",
+    "pays": "GAMBIE",
+    "nationalite": "Gambienne "
+  },
+  {
+    "code_iso_pays": "GN",
+    "pays": "GUINÉE",
+    "nationalite": "Guinéenne "
+  },
+  {
+    "code_iso_pays": "GP",
+    "pays": "GUADELOUPE",
+    "nationalite": "GUADELOUPE"
+  },
+  {
+    "code_iso_pays": "GQ",
+    "pays": "GUINÉE ÉQUATORIALE",
+    "nationalite": "GUINÉE ÉQUATORIALE"
+  },
+  {
+    "code_iso_pays": "GR",
+    "pays": "GRÈCE",
+    "nationalite": "Grecque"
+  },
+  {
+    "code_iso_pays": "GS",
+    "pays": "GÉORGIE DU SUD-ET-LES ÎLES SANDWICH DU SUD",
+    "nationalite": "GÉORGIE DU SUD-ET-LES ÎLES SANDWICH DU SUD"
+  },
+  {
+    "code_iso_pays": "GT",
+    "pays": "GUATEMALA",
+    "nationalite": "Guatemaltèque "
+  },
+  {
+    "code_iso_pays": "GU",
+    "pays": "GUAM",
+    "nationalite": "GUAM"
+  },
+  {
+    "code_iso_pays": "GW",
+    "pays": "GUINÉE-BISSAU",
+    "nationalite": "GUINÉE-BISSAU"
+  },
+  {
+    "code_iso_pays": "GY",
+    "pays": "GUYANA",
+    "nationalite": "GUYANA"
+  },
+  {
+    "code_iso_pays": "HK",
+    "pays": "HONG KONG",
+    "nationalite": "HONG KONG"
+  },
+  {
+    "code_iso_pays": "HM",
+    "pays": "HEARD-ET-ÎLES MACDONALD, ÎLE",
+    "nationalite": "HEARD-ET-ÎLES MACDONALD, ÎLE"
+  },
+  {
+    "code_iso_pays": "HN",
+    "pays": "HONDURAS",
+    "nationalite": "Hondurienne "
+  },
+  {
+    "code_iso_pays": "HR",
+    "pays": "CROATIE",
+    "nationalite": "Croate "
+  },
+  {
+    "code_iso_pays": "HT",
+    "pays": "HAÏTI",
+    "nationalite": "Haïtienne "
+  },
+  {
+    "code_iso_pays": "HU",
+    "pays": "HONGRIE",
+    "nationalite": "Hongroise "
+  },
+  {
+    "code_iso_pays": "ID",
+    "pays": "INDONÉSIE",
+    "nationalite": "Indonésienne "
+  },
+  {
+    "code_iso_pays": "IE",
+    "pays": "IRLANDE",
+    "nationalite": "Irlandaise "
+  },
+  {
+    "code_iso_pays": "IL",
+    "pays": "ISRAËL",
+    "nationalite": "Israélienne "
+  },
+  {
+    "code_iso_pays": "IM",
+    "pays": "ÎLE DE MAN",
+    "nationalite": "ÎLE DE MAN"
+  },
+  {
+    "code_iso_pays": "IN",
+    "pays": "INDE",
+    "nationalite": "Indienne "
+  },
+  {
+    "code_iso_pays": "IO",
+    "pays": "OCÉAN INDIEN, TERRITOIRE BRITANNIQUE DE L'",
+    "nationalite": "OCÉAN INDIEN, TERRITOIRE BRITANNIQUE DE L'"
+  },
+  {
+    "code_iso_pays": "IQ",
+    "pays": "IRAQ",
+    "nationalite": "Irakienne"
+  },
+  {
+    "code_iso_pays": "IR",
+    "pays": "IRAN, RÉPUBLIQUE ISLAMIQUE D'",
+    "nationalite": "IRAN, RÉPUBLIQUE ISLAMIQUE D'"
+  },
+  {
+    "code_iso_pays": "IS",
+    "pays": "ISLANDE",
+    "nationalite": "Islandaise "
+  },
+  {
+    "code_iso_pays": "IT",
+    "pays": "ITALIE",
+    "nationalite": "Italienne "
+  },
+  {
+    "code_iso_pays": "JE",
+    "pays": "JERSEY",
+    "nationalite": "JERSEY"
+  },
+  {
+    "code_iso_pays": "JM",
+    "pays": "JAMAÏQUE",
+    "nationalite": "jamaïcaine"
+  },
+  {
+    "code_iso_pays": "JO",
+    "pays": "JORDANIE",
+    "nationalite": "Jordanienne "
+  },
+  {
+    "code_iso_pays": "JP",
+    "pays": "JAPON",
+    "nationalite": "Japonaise"
+  },
+  {
+    "code_iso_pays": "KE",
+    "pays": "KENYA",
+    "nationalite": "Kenyane "
+  },
+  {
+    "code_iso_pays": "KG",
+    "pays": "KIRGHIZISTAN",
+    "nationalite": "Kirghize "
+  },
+  {
+    "code_iso_pays": "KH",
+    "pays": "CAMBODGE",
+    "nationalite": "CAMBODGE"
+  },
+  {
+    "code_iso_pays": "KI",
+    "pays": "KIRIBATI",
+    "nationalite": "KIRIBATI"
+  },
+  {
+    "code_iso_pays": "KM",
+    "pays": "COMORES",
+    "nationalite": "COMORES"
+  },
+  {
+    "code_iso_pays": "KN",
+    "pays": "SAINT-KITTS-ET-NEVIS",
+    "nationalite": "SAINT-KITTS-ET-NEVIS"
+  },
+  {
+    "code_iso_pays": "KP",
+    "pays": "CORÉE, RÉPUBLIQUE POPULAIRE DÉMOCRATIQUE DE",
+    "nationalite": "CORÉE, RÉPUBLIQUE POPULAIRE DÉMOCRATIQUE DE"
+  },
+  {
+    "code_iso_pays": "KR",
+    "pays": "CORÉE",
+    "nationalite": "CORÉE"
+  },
+  {
+    "code_iso_pays": "KW",
+    "pays": "KOWEÏT",
+    "nationalite": "Koweitienne "
+  },
+  {
+    "code_iso_pays": "KY",
+    "pays": "CAÏMANS, ÎLES",
+    "nationalite": "CAÏMANS, ÎLES"
+  },
+  {
+    "code_iso_pays": "KZ",
+    "pays": "KAZAKHSTAN",
+    "nationalite": "kazakh"
+  },
+  {
+    "code_iso_pays": "LA",
+    "pays": "LAO",
+    "nationalite": "Laotienne "
+  },
+  {
+    "code_iso_pays": "LB",
+    "pays": "LIBAN",
+    "nationalite": "Libanaise "
+  },
+  {
+    "code_iso_pays": "LC",
+    "pays": "SAINTE-LUCIE",
+    "nationalite": "SAINTE-LUCIE"
+  },
+  {
+    "code_iso_pays": "LI",
+    "pays": "LIECHTENSTEIN",
+    "nationalite": "LIECHTENSTEIN"
+  },
+  {
+    "code_iso_pays": "LK",
+    "pays": "SRI LANKA",
+    "nationalite": "Sri-lankaise "
+  },
+  {
+    "code_iso_pays": "LR",
+    "pays": "LIBÉRIA",
+    "nationalite": "Liberienne "
+  },
+  {
+    "code_iso_pays": "LS",
+    "pays": "LESOTHO",
+    "nationalite": "Lesothane "
+  },
+  {
+    "code_iso_pays": "LT",
+    "pays": "LITUANIE",
+    "nationalite": "Lituanienne "
+  },
+  {
+    "code_iso_pays": "LU",
+    "pays": "LUXEMBOURG",
+    "nationalite": "Luxembourgeoise "
+  },
+  {
+    "code_iso_pays": "LV",
+    "pays": "LETTONIE",
+    "nationalite": "Lettone "
+  },
+  {
+    "code_iso_pays": "LY",
+    "pays": "LIBYE",
+    "nationalite": "Libyenne "
+  },
+  {
+    "code_iso_pays": "MA",
+    "pays": "MAROC",
+    "nationalite": "Marocaine "
+  },
+  {
+    "code_iso_pays": "MC",
+    "pays": "MONACO",
+    "nationalite": "Monegasque "
+  },
+  {
+    "code_iso_pays": "MD",
+    "pays": "MOLDOVA, RÉPUBLIQUE DE",
+    "nationalite": "Moldave "
+  },
+  {
+    "code_iso_pays": "ME",
+    "pays": "MONTÉNÉGRO",
+    "nationalite": "Montenegrine "
+  },
+  {
+    "code_iso_pays": "MF",
+    "pays": "SAINT-MARTIN(PARTIE FRANÇAISE)",
+    "nationalite": "SAINT-MARTIN(PARTIE FRANÇAISE)"
+  },
+  {
+    "code_iso_pays": "MG",
+    "pays": "MADAGASCAR",
+    "nationalite": "Malgache "
+  },
+  {
+    "code_iso_pays": "MH",
+    "pays": "MARSHALL, ÎLES",
+    "nationalite": "Marshallaise "
+  },
+  {
+    "code_iso_pays": "MK",
+    "pays": "MACÉDOINE",
+    "nationalite": "Macedonienne "
+  },
+  {
+    "code_iso_pays": "ML",
+    "pays": "MALI",
+    "nationalite": "Malienne "
+  },
+  {
+    "code_iso_pays": "MM",
+    "pays": "MYANMAR",
+    "nationalite": "MYANMAR"
+  },
+  {
+    "code_iso_pays": "MN",
+    "pays": "MONGOLIE",
+    "nationalite": "Mongole "
+  },
+  {
+    "code_iso_pays": "MO",
+    "pays": "MACAO",
+    "nationalite": "MACAO"
+  },
+  {
+    "code_iso_pays": "MP",
+    "pays": "MARIANNES DU NORD, ÎLES",
+    "nationalite": "MARIANNES DU NORD, ÎLES"
+  },
+  {
+    "code_iso_pays": "MQ",
+    "pays": "MARTINIQUE",
+    "nationalite": "Martiniquaise"
+  },
+  {
+    "code_iso_pays": "MR",
+    "pays": "MAURITANIE",
+    "nationalite": "Mauritanienne "
+  },
+  {
+    "code_iso_pays": "MS",
+    "pays": "MONTSERRAT",
+    "nationalite": "MONTSERRAT"
+  },
+  {
+    "code_iso_pays": "MT",
+    "pays": "MALTE",
+    "nationalite": "Maltaise "
+  },
+  {
+    "code_iso_pays": "MU",
+    "pays": "MAURICE",
+    "nationalite": "Mauricienne "
+  },
+  {
+    "code_iso_pays": "MV",
+    "pays": "MALDIVES",
+    "nationalite": "Maldivienne "
+  },
+  {
+    "code_iso_pays": "MW",
+    "pays": "MALAWI",
+    "nationalite": "Malawienne "
+  },
+  {
+    "code_iso_pays": "MX",
+    "pays": "MEXIQUE",
+    "nationalite": "Mexicaine "
+  },
+  {
+    "code_iso_pays": "MY",
+    "pays": "MALAISIE",
+    "nationalite": "Malaisienne "
+  },
+  {
+    "code_iso_pays": "MZ",
+    "pays": "MOZAMBIQUE",
+    "nationalite": "Mozambicaine "
+  },
+  {
+    "code_iso_pays": "NA",
+    "pays": "NAMIBIE",
+    "nationalite": "Namibienne "
+  },
+  {
+    "code_iso_pays": "NC",
+    "pays": "NOUVELLE-CALÉDONIE",
+    "nationalite": "NOUVELLE-CALÉDONIE"
+  },
+  {
+    "code_iso_pays": "NE",
+    "pays": "NIGER",
+    "nationalite": "Nigeriane "
+  },
+  {
+    "code_iso_pays": "NF",
+    "pays": "NORFOLK, ÎLE",
+    "nationalite": "NORFOLK, ÎLE"
+  },
+  {
+    "code_iso_pays": "NG",
+    "pays": "NIGÉRIA",
+    "nationalite": "Nigerienne "
+  },
+  {
+    "code_iso_pays": "NI",
+    "pays": "NICARAGUA",
+    "nationalite": "Nicaraguayenne "
+  },
+  {
+    "code_iso_pays": "NL",
+    "pays": "PAYS-BAS",
+    "nationalite": "Neerlandaise "
+  },
+  {
+    "code_iso_pays": "NO",
+    "pays": "NORVÈGE",
+    "nationalite": "Norvegienne "
+  },
+  {
+    "code_iso_pays": "NP",
+    "pays": "NÉPAL",
+    "nationalite": "Népalaise "
+  },
+  {
+    "code_iso_pays": "NR",
+    "pays": "NAURU",
+    "nationalite": "Nauruane "
+  },
+  {
+    "code_iso_pays": "NU",
+    "pays": "NIUÉ",
+    "nationalite": "NIUÉ"
+  },
+  {
+    "code_iso_pays": "NZ",
+    "pays": "NOUVELLE-ZÉLANDE",
+    "nationalite": "Neo-zelandaise "
+  },
+  {
+    "code_iso_pays": "OM",
+    "pays": "OMAN",
+    "nationalite": "Omanaise "
+  },
+  {
+    "code_iso_pays": "PA",
+    "pays": "PANAMA",
+    "nationalite": "PANAMA"
+  },
+  {
+    "code_iso_pays": "PE",
+    "pays": "PÉROU",
+    "nationalite": "Péruvienne"
+  },
+  {
+    "code_iso_pays": "PF",
+    "pays": "POLYNÉSIE FRANÇAISE",
+    "nationalite": "POLYNÉSIE FRANÇAISE"
+  },
+  {
+    "code_iso_pays": "PG",
+    "pays": "PAPOUASIE-NOUVELLE-GUINÉE",
+    "nationalite": "PAPOUASIE-NOUVELLE-GUINÉE"
+  },
+  {
+    "code_iso_pays": "PH",
+    "pays": "PHILIPPINES",
+    "nationalite": "Philippine "
+  },
+  {
+    "code_iso_pays": "PK",
+    "pays": "PAKISTAN",
+    "nationalite": "Pakistanaise "
+  },
+  {
+    "code_iso_pays": "PL",
+    "pays": "POLOGNE",
+    "nationalite": "Polonaise "
+  },
+  {
+    "code_iso_pays": "PM",
+    "pays": "SAINT-PIERRE-ET-MIQUELON",
+    "nationalite": "SAINT-PIERRE-ET-MIQUELON"
+  },
+  {
+    "code_iso_pays": "PN",
+    "pays": "PITCAIRN",
+    "nationalite": "PITCAIRN"
+  },
+  {
+    "code_iso_pays": "PR",
+    "pays": "PORTO RICO",
+    "nationalite": "Portoricaine "
+  },
+  {
+    "code_iso_pays": "PS",
+    "pays": "PALESTINIEN OCCUPÉ, TERRITOIRE",
+    "nationalite": "Palestinienne "
+  },
+  {
+    "code_iso_pays": "PT",
+    "pays": "PORTUGAL",
+    "nationalite": "Portugaise "
+  },
+  {
+    "code_iso_pays": "PW",
+    "pays": "PALAOS",
+    "nationalite": "Palau "
+  },
+  {
+    "code_iso_pays": "PY",
+    "pays": "PARAGUAY",
+    "nationalite": "Paraguayenne "
+  },
+  {
+    "code_iso_pays": "QA",
+    "pays": "QATAR",
+    "nationalite": "Qatarienne "
+  },
+  {
+    "code_iso_pays": "RE",
+    "pays": "RÉUNION",
+    "nationalite": "RÉUNION"
+  },
+  {
+    "code_iso_pays": "RO",
+    "pays": "ROUMANIE",
+    "nationalite": "Roumaine "
+  },
+  {
+    "code_iso_pays": "RS",
+    "pays": "SERBIE",
+    "nationalite": "Serbe "
+  },
+  {
+    "code_iso_pays": "RU",
+    "pays": "RUSSIE",
+    "nationalite": "Russe "
+  },
+  {
+    "code_iso_pays": "RW",
+    "pays": "RWANDA",
+    "nationalite": "Rwandaise "
+  },
+  {
+    "code_iso_pays": "SA",
+    "pays": "ARABIE SAOUDITE",
+    "nationalite": "Saoudienne "
+  },
+  {
+    "code_iso_pays": "SB",
+    "pays": "SALOMON, ÎLES",
+    "nationalite": "Salomonaise "
+  },
+  {
+    "code_iso_pays": "SC",
+    "pays": "SEYCHELLES",
+    "nationalite": "Seychelloise "
+  },
+  {
+    "code_iso_pays": "SD",
+    "pays": "SOUDAN",
+    "nationalite": "Soudanaise "
+  },
+  {
+    "code_iso_pays": "SE",
+    "pays": "SUÈDE",
+    "nationalite": "Suédoise "
+  },
+  {
+    "code_iso_pays": "SG",
+    "pays": "SINGAPOUR",
+    "nationalite": "SINGAPOUR"
+  },
+  {
+    "code_iso_pays": "SH",
+    "pays": "SAINTE-HÉLÈNE",
+    "nationalite": "SAINTE-HÉLÈNE"
+  },
+  {
+    "code_iso_pays": "SI",
+    "pays": "SLOVÉNIE",
+    "nationalite": "Slovéne "
+  },
+  {
+    "code_iso_pays": "SJ",
+    "pays": "SVALBARD ET ÎLE JAN MAYEN",
+    "nationalite": "SVALBARD ET ÎLE JAN MAYEN"
+  },
+  {
+    "code_iso_pays": "SK",
+    "pays": "SLOVAQUIE",
+    "nationalite": "Slovaque "
+  },
+  {
+    "code_iso_pays": "SL",
+    "pays": "SIERRA LEONE",
+    "nationalite": "Sierra-leonaise "
+  },
+  {
+    "code_iso_pays": "SM",
+    "pays": "SAINT-MARIN",
+    "nationalite": "Saint-marinaise "
+  },
+  {
+    "code_iso_pays": "SN",
+    "pays": "SÉNÉGAL",
+    "nationalite": "Sénégalaise "
+  },
+  {
+    "code_iso_pays": "SO",
+    "pays": "SOMALIE",
+    "nationalite": "Somalienne "
+  },
+  {
+    "code_iso_pays": "SR",
+    "pays": "SURINAME",
+    "nationalite": "Surinamaise "
+  },
+  {
+    "code_iso_pays": "SS",
+    "pays": "SOUDAN DU SUD",
+    "nationalite": "SOUDAN DU SUD"
+  },
+  {
+    "code_iso_pays": "ST",
+    "pays": "SAO TOMÉ-ET-PRINCIPE",
+    "nationalite": "SAO TOMÉ-ET-PRINCIPE"
+  },
+  {
+    "code_iso_pays": "SV",
+    "pays": "EL SALVADOR",
+    "nationalite": "Salvadorienne "
+  },
+  {
+    "code_iso_pays": "SX",
+    "pays": "SAINT-MARTIN",
+    "nationalite": "Saint-martinaise "
+  },
+  {
+    "code_iso_pays": "SY",
+    "pays": "SYRIE",
+    "nationalite": "Syrienne"
+  },
+  {
+    "code_iso_pays": "SZ",
+    "pays": "SWAZILAND",
+    "nationalite": "Swazie "
+  },
+  {
+    "code_iso_pays": "TC",
+    "pays": "TURKS-ET-CAÏCOS, ÎLES",
+    "nationalite": "TURKS-ET-CAÏCOS, ÎLES"
+  },
+  {
+    "code_iso_pays": "TD",
+    "pays": "TCHAD",
+    "nationalite": "Tchadienne "
+  },
+  {
+    "code_iso_pays": "TF",
+    "pays": "TERRES AUSTRALES FRANÇAISES",
+    "nationalite": "TERRES AUSTRALES FRANÇAISES"
+  },
+  {
+    "code_iso_pays": "TG",
+    "pays": "TOGO",
+    "nationalite": "Togolaise "
+  },
+  {
+    "code_iso_pays": "TH",
+    "pays": "THAÏLANDE",
+    "nationalite": "Thaïlandaise "
+  },
+  {
+    "code_iso_pays": "TJ",
+    "pays": "TADJIKISTAN",
+    "nationalite": "Tadjike "
+  },
+  {
+    "code_iso_pays": "TK",
+    "pays": "TOKELAU",
+    "nationalite": "TOKELAU"
+  },
+  {
+    "code_iso_pays": "TL",
+    "pays": "TIMOR-LESTE",
+    "nationalite": "TIMOR-LESTE"
+  },
+  {
+    "code_iso_pays": "TM",
+    "pays": "TURKMÉNISTAN",
+    "nationalite": "Turkmene "
+  },
+  {
+    "code_iso_pays": "TN",
+    "pays": "TUNISIE",
+    "nationalite": "Tunisienne "
+  },
+  {
+    "code_iso_pays": "TO",
+    "pays": "TONGA",
+    "nationalite": "Tonguienne "
+  },
+  {
+    "code_iso_pays": "TR",
+    "pays": "TURQUIE",
+    "nationalite": "Turque "
+  },
+  {
+    "code_iso_pays": "TT",
+    "pays": "TRINITÉ-ET-TOBAGO",
+    "nationalite": "Trinidadienne "
+  },
+  {
+    "code_iso_pays": "TV",
+    "pays": "TUVALU",
+    "nationalite": "Tuvaluane "
+  },
+  {
+    "code_iso_pays": "TW",
+    "pays": "TAÏWAN, PROVINCE DE CHINE",
+    "nationalite": "Taiwanaise "
+  },
+  {
+    "code_iso_pays": "TZ",
+    "pays": "TANZANIE",
+    "nationalite": "Tanzanienne "
+  },
+  {
+    "code_iso_pays": "UA",
+    "pays": "UKRAINE",
+    "nationalite": "Ukrainienne "
+  },
+  {
+    "code_iso_pays": "UG",
+    "pays": "OUGANDA",
+    "nationalite": "Ougandaise "
+  },
+  {
+    "code_iso_pays": "UM",
+    "pays": "ÎLES MINEURES ÉLOIGNÉES DES ÉTATS-UNIS",
+    "nationalite": "ÎLES MINEURES ÉLOIGNÉES DES ÉTATS-UNIS"
+  },
+  {
+    "code_iso_pays": "US",
+    "pays": "ÉTATS-UNIS",
+    "nationalite": "Américaine "
+  },
+  {
+    "code_iso_pays": "UY",
+    "pays": "URUGUAY",
+    "nationalite": "Uruguayenne "
+  },
+  {
+    "code_iso_pays": "UZ",
+    "pays": "OUZBÉKISTAN",
+    "nationalite": "Ouzbèke "
+  },
+  {
+    "code_iso_pays": "VA",
+    "pays": "SAINT-SIÈGE (ÉTAT DE LA CITÉ DU VATICAN)",
+    "nationalite": "SAINT-SIÈGE (ÉTAT DE LA CITÉ DU VATICAN)"
+  },
+  {
+    "code_iso_pays": "VC",
+    "pays": "SAINT-VINCENT-ET-LES GRENADINES",
+    "nationalite": "SAINT-VINCENT-ET-LES GRENADINES"
+  },
+  {
+    "code_iso_pays": "VE",
+    "pays": "VENEZUELA, RÉPUBLIQUE BOLIVARIENNE DU",
+    "nationalite": "VENEZUELA, RÉPUBLIQUE BOLIVARIENNE DU"
+  },
+  {
+    "code_iso_pays": "VG",
+    "pays": "ÎLES VIERGES BRITANNIQUES",
+    "nationalite": "ÎLES VIERGES BRITANNIQUES"
+  },
+  {
+    "code_iso_pays": "VI",
+    "pays": "ÎLES VIERGES DES ÉTATS-UNIS",
+    "nationalite": "ÎLES VIERGES DES ÉTATS-UNIS"
+  },
+  {
+    "code_iso_pays": "VN",
+    "pays": "VIET NAM",
+    "nationalite": "Vietnamienne "
+  },
+  {
+    "code_iso_pays": "VU",
+    "pays": "VANUATU",
+    "nationalite": "VANUATU"
+  },
+  {
+    "code_iso_pays": "WF",
+    "pays": "WALLIS ET FUTUNA",
+    "nationalite": "WALLIS ET FUTUNA"
+  },
+  {
+    "code_iso_pays": "WS",
+    "pays": "SAMOA",
+    "nationalite": "Samoane "
+  },
+  {
+    "code_iso_pays": "YE",
+    "pays": "YÉMEN",
+    "nationalite": "Yéménite "
+  },
+  {
+    "code_iso_pays": "YT",
+    "pays": "MAYOTTE",
+    "nationalite": "MAYOTTE"
+  },
+  {
+    "code_iso_pays": "ZA",
+    "pays": "AFRIQUE DU SUD",
+    "nationalite": "Sud-africaine "
+  },
+  {
+    "code_iso_pays": "ZM",
+    "pays": "ZAMBIE",
+    "nationalite": "Zambienne "
+  },
+  {
+    "code_iso_pays": "ZW",
+    "pays": "ZIMBABWE",
+    "nationalite": "Zimbabwéenne "
+  }
+]

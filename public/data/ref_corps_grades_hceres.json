@@ -1,0 +1,632 @@
+[
+    {
+        "id_corps_grade": "1",
+        "code_corps_grade": "PREX",
+        "nom_corps_grade": "Professeur des universités",
+        "categorie": "Professeurs des universités et assimilés (MESR), Professeurs d'autres ministères",
+        "type_emploi": "EC_tit"
+    },
+    {
+        "id_corps_grade": "2",
+        "code_corps_grade": "PR1",
+        "nom_corps_grade": "Professeur des universités",
+        "categorie": "Professeurs des universités et assimilés (MESR), Professeurs d'autres ministères",
+        "type_emploi": "EC_tit"
+    },
+    {
+        "id_corps_grade": "3",
+        "code_corps_grade": "PR2",
+        "nom_corps_grade": "Professeur des universités",
+        "categorie": "Professeurs des universités et assimilés (MESR), Professeurs d'autres ministères",
+        "type_emploi": "EC_tit"
+    },
+    {
+        "id_corps_grade": "4",
+        "code_corps_grade": "PR",
+        "nom_corps_grade": "Professeur des universités",
+        "categorie": "Professeurs des universités et assimilés (MESR), Professeurs d'autres ministères",
+        "type_emploi": "EC_tit"
+    },
+    {
+        "id_corps_grade": "5",
+        "code_corps_grade": "DIRH",
+        "nom_corps_grade": "Directeur d'études EHESS",
+        "categorie": "Professeurs des universités et assimilés (MESR), Professeurs d'autres ministères",
+        "type_emploi": "EC_tit"
+    },
+    {
+        "id_corps_grade": "6",
+        "code_corps_grade": "DIRP",
+        "nom_corps_grade": "Directeur d'études EPHE, EFE",
+        "categorie": "Professeurs des universités et assimilés (MESR), Professeurs d'autres ministères",
+        "type_emploi": "EC_tit"
+    },
+    {
+        "id_corps_grade": "7",
+        "code_corps_grade": "Physicien",
+        "nom_corps_grade": "Physicien",
+        "categorie": "Professeurs des universités et assimilés (MESR), Professeurs d'autres ministères",
+        "type_emploi": "EC_tit"
+    },
+    {
+        "id_corps_grade": "8",
+        "code_corps_grade": "Astro",
+        "nom_corps_grade": "Astronome",
+        "categorie": "Professeurs des universités et assimilés (MESR), Professeurs d'autres ministères",
+        "type_emploi": "EC_tit"
+    },
+    {
+        "id_corps_grade": "9",
+        "code_corps_grade": "PUPHEX",
+        "nom_corps_grade": "Professeurs des universités-Praticiens hospitaliers",
+        "categorie": "Professeurs des universités et assimilés (MESR), Professeurs d'autres ministères",
+        "type_emploi": "EC_tit"
+    },
+    {
+        "id_corps_grade": "10",
+        "code_corps_grade": "PUPH1",
+        "nom_corps_grade": "Professeurs des universités-Praticiens hospitaliers",
+        "categorie": "Professeurs des universités et assimilés (MESR), Professeurs d'autres ministères",
+        "type_emploi": "EC_tit"
+    },
+    {
+        "id_corps_grade": "11",
+        "code_corps_grade": "PUPH2",
+        "nom_corps_grade": "Professeurs des universités-Praticiens hospitaliers",
+        "categorie": "Professeurs des universités et assimilés (MESR), Professeurs d'autres ministères",
+        "type_emploi": "EC_tit"
+    },
+    {
+        "id_corps_grade": "12",
+        "code_corps_grade": "PUPH",
+        "nom_corps_grade": "Professeurs des universités-Praticiens hospitaliers",
+        "categorie": "Professeurs des universités et assimilés (MESR), Professeurs d'autres ministères",
+        "type_emploi": "EC_tit"
+    },
+    {
+        "id_corps_grade": "13",
+        "code_corps_grade": "PR_AutMin",
+        "nom_corps_grade": "Professeur autres ministères",
+        "categorie": "Professeurs des universités et assimilés (MESR), Professeurs d'autres ministères",
+        "type_emploi": "EC_tit"
+    },
+    {
+        "id_corps_grade": "14",
+        "code_corps_grade": "MCFHC",
+        "nom_corps_grade": "Maître de conférences des universités",
+        "categorie": "Maîtres de conférences et assimilés (MESR), Maîtres de conférences d'autres ministères",
+        "type_emploi": "EC_tit"
+    },
+    {
+        "id_corps_grade": "15",
+        "code_corps_grade": "MCF",
+        "nom_corps_grade": "Maître de conférences des universités",
+        "categorie": "Maîtres de conférences et assimilés (MESR), Maîtres de conférences d'autres ministères",
+        "type_emploi": "EC_tit"
+    },
+    {
+        "id_corps_grade": "16",
+        "code_corps_grade": "MCFP",
+        "nom_corps_grade": "Maître de conférences EPHE, EFE, Ec. Nat. Chartes",
+        "categorie": "Maîtres de conférences et assimilés (MESR), Maîtres de conférences d'autres ministères",
+        "type_emploi": "EC_tit"
+    },
+    {
+        "id_corps_grade": "17",
+        "code_corps_grade": "Phys_adj",
+        "nom_corps_grade": "Physicien adjoint",
+        "categorie": "Maîtres de conférences et assimilés (MESR), Maîtres de conférences d'autres ministères",
+        "type_emploi": "EC_tit"
+    },
+    {
+        "id_corps_grade": "18",
+        "code_corps_grade": "Astro_adj",
+        "nom_corps_grade": "Astronome adjoint",
+        "categorie": "Maîtres de conférences et assimilés (MESR), Maîtres de conférences d'autres ministères",
+        "type_emploi": "EC_tit"
+    },
+    {
+        "id_corps_grade": "19",
+        "code_corps_grade": "MCUPHHC",
+        "nom_corps_grade": "Maître de conférences des universités-Praticiens hospitaliers",
+        "categorie": "Maîtres de conférences et assimilés (MESR), Maîtres de conférences d'autres ministères",
+        "type_emploi": "EC_tit"
+    },
+    {
+        "id_corps_grade": "20",
+        "code_corps_grade": "MCUPH1",
+        "nom_corps_grade": "Maître de conférences des universités-Praticiens hospitaliers",
+        "categorie": "Maîtres de conférences et assimilés (MESR), Maîtres de conférences d'autres ministères",
+        "type_emploi": "EC_tit"
+    },
+    {
+        "id_corps_grade": "21",
+        "code_corps_grade": "MCUPH2",
+        "nom_corps_grade": "Maître de conférences des universités-Praticiens hospitaliers",
+        "categorie": "Maîtres de conférences et assimilés (MESR), Maîtres de conférences d'autres ministères",
+        "type_emploi": "EC_tit"
+    },
+    {
+        "id_corps_grade": "22",
+        "code_corps_grade": "MCUPH",
+        "nom_corps_grade": "Maître de conférences des universités-Praticiens hospitaliers",
+        "categorie": "Maîtres de conférences et assimilés (MESR), Maîtres de conférences d'autres ministères",
+        "type_emploi": "EC_tit"
+    },
+    {
+        "id_corps_grade": "23",
+        "code_corps_grade": "MC_AutMin",
+        "nom_corps_grade": "Maître de conférences ou Maître assistant autres ministères",
+        "categorie": "Maîtres de conférences et assimilés (MESR), Maîtres de conférences d'autres ministères",
+        "type_emploi": "EC_tit"
+    },
+    {
+        "id_corps_grade": "24",
+        "code_corps_grade": "PREM",
+        "nom_corps_grade": "Professeur émérite",
+        "categorie": "Enseignants-chercheurs non titulaires, émérites et autres",
+        "type_emploi": "EC_aut"
+    },
+    {
+        "id_corps_grade": "25",
+        "code_corps_grade": "CCA",
+        "nom_corps_grade": "Chef de clinique assistant",
+        "categorie": "Enseignants-chercheurs non titulaires, émérites et autres",
+        "type_emploi": "EC_aut"
+    },
+    {
+        "id_corps_grade": "26",
+        "code_corps_grade": "AHU",
+        "nom_corps_grade": "Attaché hospitalier universitaire",
+        "categorie": "Enseignants-chercheurs non titulaires, émérites et autres",
+        "type_emploi": "EC_aut"
+    },
+    {
+        "id_corps_grade": "27",
+        "code_corps_grade": "PHU",
+        "nom_corps_grade": "Praticien hospitalier universitaire",
+        "categorie": "Enseignants-chercheurs non titulaires, émérites et autres",
+        "type_emploi": "EC_aut"
+    },
+    {
+        "id_corps_grade": "28",
+        "code_corps_grade": "ECC",
+        "nom_corps_grade": "Enseignant-chercheur contractuel (dont contrats LRU)",
+        "categorie": "Enseignants-chercheurs non titulaires, émérites et autres",
+        "type_emploi": "EC_aut"
+    },
+    {
+        "id_corps_grade": "29",
+        "code_corps_grade": "Autre_EC",
+        "nom_corps_grade": "autre statut",
+        "categorie": "Enseignants-chercheurs non titulaires, émérites et autres",
+        "type_emploi": "EC_aut"
+    },
+    {
+        "id_corps_grade": "30",
+        "code_corps_grade": "DRCE",
+        "nom_corps_grade": "Directeur de recherche EPST",
+        "categorie": "Chercheurs des EPST",
+        "type_emploi": "Ch_tit"
+    },
+    {
+        "id_corps_grade": "31",
+        "code_corps_grade": "DR1",
+        "nom_corps_grade": "Directeur de recherche EPST",
+        "categorie": "Chercheurs des EPST",
+        "type_emploi": "Ch_tit"
+    },
+    {
+        "id_corps_grade": "32",
+        "code_corps_grade": "DR2",
+        "nom_corps_grade": "Directeur de recherche EPST",
+        "categorie": "Chercheurs des EPST",
+        "type_emploi": "Ch_tit"
+    },
+    {
+        "id_corps_grade": "33",
+        "code_corps_grade": "DR",
+        "nom_corps_grade": "Directeur de recherche EPST",
+        "categorie": "Chercheurs des EPST",
+        "type_emploi": "Ch_tit"
+    },
+    {
+        "id_corps_grade": "34",
+        "code_corps_grade": "CR1",
+        "nom_corps_grade": "Chargé de recherche EPST",
+        "categorie": "Chercheurs des EPST",
+        "type_emploi": "Ch_tit"
+    },
+    {
+        "id_corps_grade": "35",
+        "code_corps_grade": "CR2",
+        "nom_corps_grade": "Chargé de recherche EPST",
+        "categorie": "Chercheurs des EPST",
+        "type_emploi": "Ch_tit"
+    },
+    {
+        "id_corps_grade": "36",
+        "code_corps_grade": "CR",
+        "nom_corps_grade": "Chargé de recherche EPST",
+        "categorie": "Chercheurs des EPST",
+        "type_emploi": "Ch_tit"
+    },
+    {
+        "id_corps_grade": "37",
+        "code_corps_grade": "Cadre_supérieur",
+        "nom_corps_grade": "Cadre scientifique autres que MESR reconnus comme chercheurs",
+        "categorie": "Chercheurs des EPIC et autres organismes, fondations ou entreprises privées",
+        "type_emploi": "Ch_tit"
+    },
+    {
+        "id_corps_grade": "38",
+        "code_corps_grade": "Cadre_confirmé",
+        "nom_corps_grade": "Cadre scientifique autres que MESR reconnus comme chercheurs",
+        "categorie": "Chercheurs des EPIC et autres organismes, fondations ou entreprises privées",
+        "type_emploi": "Ch_tit"
+    },
+    {
+        "id_corps_grade": "39",
+        "code_corps_grade": "Cadre_débutant",
+        "nom_corps_grade": "Cadre scientifique autres que MESR reconnus comme chercheurs",
+        "categorie": "Chercheurs des EPIC et autres organismes, fondations ou entreprises privées",
+        "type_emploi": "Ch_tit"
+    },
+    {
+        "id_corps_grade": "40",
+        "code_corps_grade": "CBIB",
+        "nom_corps_grade": "Conservateur des bibliothèques",
+        "categorie": "Conservateurs",
+        "type_emploi": "Ch_tit"
+    },
+    {
+        "id_corps_grade": "41",
+        "code_corps_grade": "CPAT",
+        "nom_corps_grade": "Conservateur du patrimoine",
+        "categorie": "Conservateurs",
+        "type_emploi": "Ch_tit"
+    },
+    {
+        "id_corps_grade": "42",
+        "code_corps_grade": "DREM",
+        "nom_corps_grade": "Directeur de recherche émérite",
+        "categorie": "Chercheurs non titulaires, émérites et autres",
+        "type_emploi": "Ch_aut"
+    },
+    {
+        "id_corps_grade": "43",
+        "code_corps_grade": "CJC",
+        "nom_corps_grade": "Contrat jeune chercheur INSERM (CDD 3 / 5 ans, Avenir)",
+        "categorie": "Chercheurs non titulaires, émérites et autres",
+        "type_emploi": "Ch_aut"
+    },
+    {
+        "id_corps_grade": "44",
+        "code_corps_grade": "Ch_contractuel",
+        "nom_corps_grade": "Chercheur contractuel",
+        "categorie": "Chercheurs non titulaires, émérites et autres",
+        "type_emploi": "Ch_aut"
+    },
+    {
+        "id_corps_grade": "45",
+        "code_corps_grade": "POST-DOC",
+        "nom_corps_grade": "Post-doctorant",
+        "categorie": "Chercheurs non titulaires, émérites et autres",
+        "type_emploi": "Ch_aut"
+    },
+    {
+        "id_corps_grade": "46",
+        "code_corps_grade": "Visiteur",
+        "nom_corps_grade": "Visiteur étranger : professeur invité et chercheur associé",
+        "categorie": "Chercheurs non titulaires, émérites et autres",
+        "type_emploi": "Ch_aut"
+    },
+    {
+        "id_corps_grade": "47",
+        "code_corps_grade": "Autre_Ch",
+        "nom_corps_grade": "Autre statut",
+        "categorie": "Chercheurs non titulaires, émérites et autres",
+        "type_emploi": "Ch_aut"
+    },
+    {
+        "id_corps_grade": "48",
+        "code_corps_grade": "PRAG",
+        "nom_corps_grade": "Professeur agrégé",
+        "categorie": "Enseignants du secondaire détachés dans le supérieur",
+        "type_emploi": "AP_tit"
+    },
+    {
+        "id_corps_grade": "49",
+        "code_corps_grade": "PCAP",
+        "nom_corps_grade": "Professeur certifié",
+        "categorie": "Enseignants du secondaire détachés dans le supérieur",
+        "type_emploi": "AP_tit"
+    },
+    {
+        "id_corps_grade": "50",
+        "code_corps_grade": "PH",
+        "nom_corps_grade": "Praticien hospitalier",
+        "categorie": "Personnels hospitaliers",
+        "type_emploi": "AP_tit"
+    },
+    {
+        "id_corps_grade": "51",
+        "code_corps_grade": "CASU",
+        "nom_corps_grade": "Conseiller d'administration scolaire et universitaire",
+        "categorie": "ATOS",
+        "type_emploi": "AP_tit"
+    },
+    {
+        "id_corps_grade": "52",
+        "code_corps_grade": "ADAENES",
+        "nom_corps_grade": "Attaché et Attaché principal d'administration de l'enes",
+        "categorie": "ATOS",
+        "type_emploi": "AP_tit"
+    },
+    {
+        "id_corps_grade": "53",
+        "code_corps_grade": "SAENES",
+        "nom_corps_grade": "Secrétaire administratif de l'enes",
+        "categorie": "ATOS",
+        "type_emploi": "AP_tit"
+    },
+    {
+        "id_corps_grade": "54",
+        "code_corps_grade": "ADJAENES",
+        "nom_corps_grade": "Adjoint d'administration de l'enes",
+        "categorie": "ATOS",
+        "type_emploi": "AP_tit"
+    },
+    {
+        "id_corps_grade": "55",
+        "code_corps_grade": "IR",
+        "nom_corps_grade": "Ingénieur de recherche",
+        "categorie": "ITRF-ITA",
+        "type_emploi": "AP_tit"
+    },
+    {
+        "id_corps_grade": "56",
+        "code_corps_grade": "IE",
+        "nom_corps_grade": "Ingénieur d'études",
+        "categorie": "ITRF-ITA",
+        "type_emploi": "AP_tit"
+    },
+    {
+        "id_corps_grade": "57",
+        "code_corps_grade": "AI",
+        "nom_corps_grade": "Assistant ingénieur",
+        "categorie": "ITRF-ITA",
+        "type_emploi": "AP_tit"
+    },
+    {
+        "id_corps_grade": "58",
+        "code_corps_grade": "TCH",
+        "nom_corps_grade": "Technicien de recherche",
+        "categorie": "ITRF-ITA",
+        "type_emploi": "AP_tit"
+    },
+    {
+        "id_corps_grade": "59",
+        "code_corps_grade": "AJT",
+        "nom_corps_grade": "Adjoints et agents techniques de recherche, adjoints et agents administratifs",
+        "categorie": "ITRF-ITA",
+        "type_emploi": "AP_tit"
+    },
+    {
+        "id_corps_grade": "60",
+        "code_corps_grade": "BIB",
+        "nom_corps_grade": "Bibliothécaire d'état",
+        "categorie": "Bibliothécaires",
+        "type_emploi": "AP_tit"
+    },
+    {
+        "id_corps_grade": "61",
+        "code_corps_grade": "BIBAS",
+        "nom_corps_grade": "Bibliothécaire assistant spécialisé",
+        "categorie": "Bibliothécaires",
+        "type_emploi": "AP_tit"
+    },
+    {
+        "id_corps_grade": "62",
+        "code_corps_grade": "ASBIB",
+        "nom_corps_grade": "Assistant des bibliothèques",
+        "categorie": "Bibliothécaires",
+        "type_emploi": "AP_tit"
+    },
+    {
+        "id_corps_grade": "63",
+        "code_corps_grade": "MABIB",
+        "nom_corps_grade": "Magasinier et magasinier principal des bibliothèques",
+        "categorie": "Bibliothécaires",
+        "type_emploi": "AP_tit"
+    },
+    {
+        "id_corps_grade": "64",
+        "code_corps_grade": "Cadre_EPIC",
+        "nom_corps_grade": "Personnel cadre des EPIC",
+        "categorie": "Personnels non scientifiques EPIC ou fondations",
+        "type_emploi": "AP_tit"
+    },
+    {
+        "id_corps_grade": "65",
+        "code_corps_grade": "NonCadre_EPIC",
+        "nom_corps_grade": "Personnel non cadre des EPIC",
+        "categorie": "Personnels non scientifiques EPIC ou fondations",
+        "type_emploi": "AP_tit"
+    },
+    {
+        "id_corps_grade": "66",
+        "code_corps_grade": "PAST",
+        "nom_corps_grade": "Personnel associé à temps partiel",
+        "categorie": "Autres personnels non titulaires et autres",
+        "type_emploi": "AP_aut"
+    },
+    {
+        "id_corps_grade": "67",
+        "code_corps_grade": "CDI",
+        "nom_corps_grade": "Contrat à durée indéterminée (catégorie non précisée)",
+        "categorie": "Autres personnels non titulaires et autres",
+        "type_emploi": "AP_aut"
+    },
+    {
+        "id_corps_grade": "68",
+        "code_corps_grade": "CDI.A",
+        "nom_corps_grade": "Contrat à durée indéterminée (catégorie A)",
+        "categorie": "Autres personnels non titulaires et autres",
+        "type_emploi": "AP_aut"
+    },
+    {
+        "id_corps_grade": "69",
+        "code_corps_grade": "CDI.B",
+        "nom_corps_grade": "Contrat à durée indéterminée (catégorie B)",
+        "categorie": "Autres personnels non titulaires et autres",
+        "type_emploi": "AP_aut"
+    },
+    {
+        "id_corps_grade": "70",
+        "code_corps_grade": "CDI.C",
+        "nom_corps_grade": "Contrat à durée indéterminée (catégorie C)",
+        "categorie": "Autres personnels non titulaires et autres",
+        "type_emploi": "AP_aut"
+    },
+    {
+        "id_corps_grade": "71",
+        "code_corps_grade": "CT",
+        "nom_corps_grade": "Contrat à durée déterminée (catégorie non précisée)",
+        "categorie": "Autres personnels non titulaires et autres",
+        "type_emploi": "AP_aut"
+    },
+    {
+        "id_corps_grade": "72",
+        "code_corps_grade": "CT.A",
+        "nom_corps_grade": "Contrat à durée déterminée (catégorie A)",
+        "categorie": "Autres personnels non titulaires et autres",
+        "type_emploi": "AP_aut"
+    },
+    {
+        "id_corps_grade": "73",
+        "code_corps_grade": "CT.B",
+        "nom_corps_grade": "Contrat à durée déterminée (catégorie B)",
+        "categorie": "Autres personnels non titulaires et autres",
+        "type_emploi": "AP_aut"
+    },
+    {
+        "id_corps_grade": "74",
+        "code_corps_grade": "CT.C",
+        "nom_corps_grade": "Contrat à durée déterminée (catégorie C)",
+        "categorie": "Autres personnels non titulaires et autres",
+        "type_emploi": "AP_aut"
+    },
+    {
+        "id_corps_grade": "75",
+        "code_corps_grade": "Autre_AP",
+        "nom_corps_grade": "autre statut",
+        "categorie": "Autres personnels non titulaires et autres",
+        "type_emploi": "AP_aut"
+    },
+    {
+        "id_corps_grade": "76",
+        "code_corps_grade": "3D",
+        "nom_corps_grade": "IATOD 3D",
+        "categorie": "",
+        "type_emploi": ""
+    },
+    {
+        "id_corps_grade": "77",
+        "code_corps_grade": "COLL BEN",
+        "nom_corps_grade": "Collaborateur bénévole",
+        "categorie": "",
+        "type_emploi": ""
+    },
+    {
+        "id_corps_grade": "78",
+        "code_corps_grade": "ADT",
+        "nom_corps_grade": "ADT",
+        "categorie": "",
+        "type_emploi": ""
+    },
+    {
+        "id_corps_grade": "79",
+        "code_corps_grade": "SASU",
+        "nom_corps_grade": "SASU",
+        "categorie": "",
+        "type_emploi": ""
+    },
+    {
+        "id_corps_grade": "80",
+        "code_corps_grade": "IR 2èmeC",
+        "nom_corps_grade": "Ingénieur de recherche 2ème classe",
+        "categorie": "ITRF-ITA",
+        "type_emploi": "\\N"
+    },
+    {
+        "id_corps_grade": "81",
+        "code_corps_grade": "IR 1èreC",
+        "nom_corps_grade": "Ingénieur de recherche 1ère classe",
+        "categorie": "ITRF-ITA",
+        "type_emploi": "\\N"
+    },
+    {
+        "id_corps_grade": "82",
+        "code_corps_grade": "IR HC",
+        "nom_corps_grade": "Ingénieur de recherche hors classe",
+        "categorie": "ITRF-ITA",
+        "type_emploi": "\\N"
+    },
+    {
+        "id_corps_grade": "83",
+        "code_corps_grade": "IE CN",
+        "nom_corps_grade": "Ingénieur d'études classe normale",
+        "categorie": "ITRF-ITA",
+        "type_emploi": "\\N"
+    },
+    {
+        "id_corps_grade": "84",
+        "code_corps_grade": "IE HC",
+        "nom_corps_grade": "Ingénieur d'études hors classe",
+        "categorie": "ITRF-ITA",
+        "type_emploi": "\\N"
+    },
+    {
+        "id_corps_grade": "85",
+        "code_corps_grade": "TCH CN",
+        "nom_corps_grade": "Technicien de recherche classe normale",
+        "categorie": "ITRF-ITA",
+        "type_emploi": "\\N"
+    },
+    {
+        "id_corps_grade": "86",
+        "code_corps_grade": "TCH CS",
+        "nom_corps_grade": "Technicien de recherche classe s",
+        "categorie": "ITRF-ITA",
+        "type_emploi": "\\N"
+    },
+    {
+        "id_corps_grade": "87",
+        "code_corps_grade": "TCH CE",
+        "nom_corps_grade": "Technicien de recherche classe execeptionnelle",
+        "categorie": "ITRF-ITA",
+        "type_emploi": "\\N"
+    },
+    {
+        "id_corps_grade": "88",
+        "code_corps_grade": "ATRF",
+        "nom_corps_grade": "Adjoint technique de recherche et de formation",
+        "categorie": "ITRF-ITA",
+        "type_emploi": "\\N"
+    },
+    {
+        "id_corps_grade": "89",
+        "code_corps_grade": "ATRFP2",
+        "nom_corps_grade": "Adjoint technique de recherche et de formation (ATRF) principal de 2e classe",
+        "categorie": "ITRF-ITA",
+        "type_emploi": "\\N"
+    },
+    {
+        "id_corps_grade": "90",
+        "code_corps_grade": "ATRFP1",
+        "nom_corps_grade": "Adjoint technique de recherche et de formation (ATRF) principal de 1re classe",
+        "categorie": "ITRF-ITA",
+        "type_emploi": "\\N"
+    }
+]

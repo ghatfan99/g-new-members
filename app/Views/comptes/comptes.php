@@ -28,6 +28,8 @@
                     <th>Prénom</th>
                     <th>Statut</th>
                     <th>Email</th>
+                    <th>Date début</th>
+                    <th>Date fin</th>
                     <th>Actif</th>
                     <th>Administrateur</th>
                     <th>Date de création</th>
@@ -42,6 +44,9 @@
                             <td><?php echo $elt['prenom']; ?></td>
                             <td><?php echo $elt['na_status']; ?></td>
                             <td><?php echo $elt['email']; ?></td>
+                            <td><?php echo (new DateTime($elt['date_debut']))->format('d/m/Y'); ?></td>
+                            <td><?php echo (new DateTime($elt['date_fin']))->format('d/m/Y'); ?></td>
+
                             <td>
                                 <?php echo $elt['actif'] === 't' ? '<span style="color: #568203; font-weight: bold;">Oui</span>' : '<span style="color: #dc3545; font-weight: bold;">Non</span>'; ?>
                             </td>
@@ -51,7 +56,7 @@
                             <td><?php echo (new DateTime($elt['created_at']))->format('d/m/Y'); ?></td>
                             <td class="text-center">
                                 <div class="row d-flex align-items-center justify-content-center">
-                                    <a href="<?= base_url('comptes/edit_compte/' . $elt['id_user']) ?>" class="btn btn-primary btn-sm" title="mettre à jour les données de l'utilisateur">
+                                    <a href="<?= base_url('comptes/createOrUpdateCompte/' . $elt['id_user']) ?>" class="btn btn-primary btn-sm" title="mettre à jour les données de l'utilisateur">
                                         Mettre à jour
                                         <i class="fa fa-edit"></i>
                                     </a>

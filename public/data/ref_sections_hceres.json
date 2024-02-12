@@ -1,0 +1,644 @@
+[
+    {
+        "id_section": "1",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 01",
+        "nom_section": "section 01 - Droit privé et sciences criminelles"
+    },
+    {
+        "id_section": "2",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 02",
+        "nom_section": "section 02 - Droit public"
+    },
+    {
+        "id_section": "3",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 03",
+        "nom_section": "section 03 - Histoire du droit et des institutions"
+    },
+    {
+        "id_section": "4",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 04",
+        "nom_section": "section 04 - Science politique"
+    },
+    {
+        "id_section": "5",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 05",
+        "nom_section": "section 05 - Sciences économiques"
+    },
+    {
+        "id_section": "6",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 06",
+        "nom_section": "section 06 - Sciences de gestion"
+    },
+    {
+        "id_section": "7",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 07",
+        "nom_section": "section 07 - Sciences du langage : linguistique et phonétique générales"
+    },
+    {
+        "id_section": "8",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 08",
+        "nom_section": "section 08 - Langues et littératures anciennes"
+    },
+    {
+        "id_section": "9",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 09",
+        "nom_section": "section 09 - Langue et littérature françaises"
+    },
+    {
+        "id_section": "10",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 10",
+        "nom_section": "section 10 - Littératures comparées"
+    },
+    {
+        "id_section": "11",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 11",
+        "nom_section": "section 11 - Langues et littératures anglaises et anglo-saxonnes"
+    },
+    {
+        "id_section": "12",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 12",
+        "nom_section": "section 12 - Langues et littératures germaniques et scandinaves"
+    },
+    {
+        "id_section": "13",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 13",
+        "nom_section": "section 13 - Langues et littératures slaves"
+    },
+    {
+        "id_section": "14",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 14",
+        "nom_section": "section 14 - Langues et littératures romanes : espagnol, italien, portugais, autres langues romanes"
+    },
+    {
+        "id_section": "15",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 15",
+        "nom_section": "section 15 - Langues et littératures arabes, chinoises, japonaises, hébraique, d'autres domaines linguistiques"
+    },
+    {
+        "id_section": "16",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 16",
+        "nom_section": "section 16 - Psychologie, psychologie clinique, psychologie sociale"
+    },
+    {
+        "id_section": "17",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 17",
+        "nom_section": "section 17 - Philosophie"
+    },
+    {
+        "id_section": "18",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 18",
+        "nom_section": "section 18 - Architecture (ses théories et ses pratiques), arts appliqués, arts plastiques, arts du spectacle, épistémologie des enseignements artistiques, esthétique, musicologie, musique, sciences de l'art"
+    },
+    {
+        "id_section": "19",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 19",
+        "nom_section": "section 19 - Sociologie, démographie"
+    },
+    {
+        "id_section": "20",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 20",
+        "nom_section": "section 20 - Ethnologie, préhistoire, anthropologie biologique"
+    },
+    {
+        "id_section": "21",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 21",
+        "nom_section": "section 21 - Histoire, civilisations, archéologie et art des mondes anciens et médiévaux"
+    },
+    {
+        "id_section": "22",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 22",
+        "nom_section": "section 22 - Histoire et civilisations : histoire des mondes modernes, histoire du monde contemporain ; de l'art ; de la musique"
+    },
+    {
+        "id_section": "23",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 23",
+        "nom_section": "section 23 - Géographie physique, humaine, économique et régionale"
+    },
+    {
+        "id_section": "24",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 24",
+        "nom_section": "section 24 - Aménagement de l'espace, urbanisme"
+    },
+    {
+        "id_section": "25",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 25",
+        "nom_section": "section 25 - Mathématiques"
+    },
+    {
+        "id_section": "26",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 26",
+        "nom_section": "section 26 - Mathématiques appliquées et applications des mathématiques"
+    },
+    {
+        "id_section": "27",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 27",
+        "nom_section": "section 27 - Informatique"
+    },
+    {
+        "id_section": "28",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 28",
+        "nom_section": "section 28 - Milieux denses et matériaux"
+    },
+    {
+        "id_section": "29",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 29",
+        "nom_section": "section 29 - Constituants élémentaires"
+    },
+    {
+        "id_section": "30",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 30",
+        "nom_section": "section 30 - Milieux dilués et optique"
+    },
+    {
+        "id_section": "31",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 31",
+        "nom_section": "section 31 - Chimie théorique, physique, analytique"
+    },
+    {
+        "id_section": "32",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 32",
+        "nom_section": "section 32 - Chimie organique, minérale, industrielle"
+    },
+    {
+        "id_section": "33",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 33",
+        "nom_section": "section 33 - Chimie des matériaux"
+    },
+    {
+        "id_section": "34",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 34",
+        "nom_section": "section 34 - Astronomie, astrophysique"
+    },
+    {
+        "id_section": "35",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 35",
+        "nom_section": "section 35 - Structure et évolution de la terre et des autres planètes"
+    },
+    {
+        "id_section": "36",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 36",
+        "nom_section": "section 36 - Terre solide : géodynamique des enveloppes supérieures, paléobiosphère"
+    },
+    {
+        "id_section": "37",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 37",
+        "nom_section": "section 37 - Météorologie, océanographie physique de l'environnement"
+    },
+    {
+        "id_section": "38",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 60",
+        "nom_section": "section 60 - Mécanique, génie mécanique, génie civil"
+    },
+    {
+        "id_section": "39",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 61",
+        "nom_section": "section 61 - Génie informatique, automatique et traitement du signal"
+    },
+    {
+        "id_section": "40",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 62",
+        "nom_section": "section 62 - Energétique, génie des procédés"
+    },
+    {
+        "id_section": "41",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 63",
+        "nom_section": "section 63 - Génie électrique, électronique, photonique et systèmes"
+    },
+    {
+        "id_section": "42",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 64",
+        "nom_section": "section 64 - Biochimie et biologie moléculaire"
+    },
+    {
+        "id_section": "43",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 65",
+        "nom_section": "section 65 - Biologie cellulaire"
+    },
+    {
+        "id_section": "44",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 66",
+        "nom_section": "section 66 - Physiologie"
+    },
+    {
+        "id_section": "45",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 67",
+        "nom_section": "section 67 - Biologie des populations et écologie"
+    },
+    {
+        "id_section": "46",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 68",
+        "nom_section": "section 68 - Biologie des organismes"
+    },
+    {
+        "id_section": "47",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 69",
+        "nom_section": "section 69 - Neurosciences"
+    },
+    {
+        "id_section": "48",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 70",
+        "nom_section": "section 70 - Sciences de l'éducation"
+    },
+    {
+        "id_section": "49",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 71",
+        "nom_section": "section 71 - Sciences de l'information et de la communication"
+    },
+    {
+        "id_section": "50",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 72",
+        "nom_section": "section 72 - Epistémologie, histoire des sciences et des techniques"
+    },
+    {
+        "id_section": "51",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 73",
+        "nom_section": "section 73 - Cultures et langues régionales"
+    },
+    {
+        "id_section": "52",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 74",
+        "nom_section": "section 74 - Sciences et techniques des activités physiques et sportives"
+    },
+    {
+        "id_section": "53",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 76",
+        "nom_section": "section 76 - Théologie catholique"
+    },
+    {
+        "id_section": "54",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 77",
+        "nom_section": "section 77 - Théologie protestante"
+    },
+    {
+        "id_section": "55",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 85",
+        "nom_section": "section 85 - Personnels enseignants-chercheurs de pharmacie en sciences physico-chimiques et ingénierie appliquée à la santé"
+    },
+    {
+        "id_section": "56",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 86",
+        "nom_section": "section 86 - Personnels enseignants-chercheurs de pharmacie en sciences du médicament et des autres produits de santé"
+    },
+    {
+        "id_section": "57",
+        "code_type_section": "CNU",
+        "nom_court_section": "CNU 87",
+        "nom_section": "section 87 - Personnels enseignants-chercheurs de pharmacie en sciences biologiques, fondamentales et cliniques"
+    },
+    {
+        "id_section": "58",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 1",
+        "nom_section": "CNRS 1 Interactions, particules, noyaux, du laboratoire au cosmos"
+    },
+    {
+        "id_section": "59",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 2",
+        "nom_section": "CNRS 2 Théories physiques : méthodes, modèles et applications"
+    },
+    {
+        "id_section": "60",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 3",
+        "nom_section": "CNRS 3 Matière condensée : structures et propriétés électroniques"
+    },
+    {
+        "id_section": "61",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 4",
+        "nom_section": "CNRS 4 Atomes et molécules, optique et lasers, plasmas chauds"
+    },
+    {
+        "id_section": "62",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 5",
+        "nom_section": "CNRS 5 Matière condensée : organisation et dynamique"
+    },
+    {
+        "id_section": "63",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 6",
+        "nom_section": "CNRS 6 Sciences de l'information : fondements de l'informatique, calculs, algorithmes, représentations, exploitations"
+    },
+    {
+        "id_section": "64",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 7",
+        "nom_section": "CNRS 7 Sciences de l'information : traitements, systèmes intégrés matériel-logiciel, robots, commandes, images, contenus, interactions, signaux et langues"
+    },
+    {
+        "id_section": "65",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 8",
+        "nom_section": "CNRS 8 Micro- et nanotechnologies, micro- et nanosystèmes, photonique, électronique, électromagnétisme, énergie électrique"
+    },
+    {
+        "id_section": "66",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 9",
+        "nom_section": "CNRS 9 Ingénierie des matériaux et des structures, mécanique des solides, biomécanique, acoustique"
+    },
+    {
+        "id_section": "67",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 10",
+        "nom_section": "CNRS 10 Milieux fluides et réactifs : transports, transferts, procédés de transformation"
+    },
+    {
+        "id_section": "68",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 11",
+        "nom_section": "CNRS 11 Systèmes et matériaux supra et macromoléculaires : élaboration, propriétés, fonctions"
+    },
+    {
+        "id_section": "69",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 12",
+        "nom_section": "CNRS 12 Architectures moléculaires : synthèses, mécanismes et propriétés"
+    },
+    {
+        "id_section": "70",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 13",
+        "nom_section": "CNRS 13 Chimie physique, théorique et analytique"
+    },
+    {
+        "id_section": "71",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 14",
+        "nom_section": "CNRS 14 Chimie de coordination, catalyse, interfaces et procédés"
+    },
+    {
+        "id_section": "72",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 15",
+        "nom_section": "CNRS 15 Chimie des matériaux, nanomatériaux et procédés"
+    },
+    {
+        "id_section": "73",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 16",
+        "nom_section": "CNRS 16 Chimie du vivant et pour le vivant : conception et propriétés de molécules d'intérêt biologique"
+    },
+    {
+        "id_section": "74",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 17",
+        "nom_section": "CNRS 17 Système solaire et univers lointain"
+    },
+    {
+        "id_section": "75",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 18",
+        "nom_section": "CNRS 18 Terre et planètes telluriques : structure, histoire, modèles"
+    },
+    {
+        "id_section": "76",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 19",
+        "nom_section": "CNRS 19 Système Terre : enveloppes superficielles"
+    },
+    {
+        "id_section": "77",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 20",
+        "nom_section": "CNRS 20 Biologie moléculaire et structurale, biochimie"
+    },
+    {
+        "id_section": "78",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 21",
+        "nom_section": "CNRS 21 Organisation, Expression, Evolution des génomes. Bioinformatique et Biologie des systèmes"
+    },
+    {
+        "id_section": "79",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 22",
+        "nom_section": "CNRS 22 Biologie cellulaire, développement, évolution-développement, reproduction"
+    },
+    {
+        "id_section": "80",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 23",
+        "nom_section": "CNRS 23 Biologie végétale intégrative"
+    },
+    {
+        "id_section": "81",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 24",
+        "nom_section": "CNRS 24 Physiologie, vieillissement, tumorigenèse"
+    },
+    {
+        "id_section": "82",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 25",
+        "nom_section": "CNRS 25 Neurobiologie moléculaire et cellulaire, neurophysiologie"
+    },
+    {
+        "id_section": "83",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 26",
+        "nom_section": "CNRS 26 Cerveau, cognition et comportement"
+    },
+    {
+        "id_section": "84",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 27",
+        "nom_section": "CNRS 27 Relations hôte-pathogène, immunologie, inflammation"
+    },
+    {
+        "id_section": "85",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 28",
+        "nom_section": "CNRS 28 Pharmacologie, bio-ingénierie, imagerie, biotechnologie"
+    },
+    {
+        "id_section": "86",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 29",
+        "nom_section": "CNRS 29 Biodiversité, évolution et adaptations biologiques : des macromolécules aux communautés"
+    },
+    {
+        "id_section": "87",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 30",
+        "nom_section": "CNRS 30 Surface continentale et interfaces"
+    },
+    {
+        "id_section": "88",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 31",
+        "nom_section": "CNRS 31 Hommes et milieux : évolution, interactions"
+    },
+    {
+        "id_section": "89",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 32",
+        "nom_section": "CNRS 32 Mondes anciens et médiévaux"
+    },
+    {
+        "id_section": "90",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 33",
+        "nom_section": "CNRS 33 Mondes modernes et contemporains"
+    },
+    {
+        "id_section": "91",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 34",
+        "nom_section": "CNRS 34 Sciences du langage"
+    },
+    {
+        "id_section": "92",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 35",
+        "nom_section": "CNRS 35 Sciences philosophiques et philologiques, sciences de l'art"
+    },
+    {
+        "id_section": "93",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 36",
+        "nom_section": "CNRS 36 Sociologie et sciences du droit"
+    },
+    {
+        "id_section": "94",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 37",
+        "nom_section": "CNRS 37 Economie et gestion"
+    },
+    {
+        "id_section": "95",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 38",
+        "nom_section": "CNRS 38 Anthropologie et étude comparative des sociétés contemporaines"
+    },
+    {
+        "id_section": "96",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 39",
+        "nom_section": "CNRS 39 Espaces, territoires et sociétés"
+    },
+    {
+        "id_section": "97",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 40",
+        "nom_section": "CNRS 40 Politique, pouvoir, organisation"
+    },
+    {
+        "id_section": "98",
+        "code_type_section": "CNRS",
+        "nom_court_section": "CNRS 41",
+        "nom_section": "CNRS 41 Mathématiques et interactions des mathématiques"
+    },
+    {
+        "id_section": "99",
+        "code_type_section": "CNAPS",
+        "nom_court_section": "Astronomie",
+        "nom_section": "Astronomie"
+    },
+    {
+        "id_section": "100",
+        "code_type_section": "CNAPS",
+        "nom_court_section": "Terre Interne",
+        "nom_section": "Terre Interne"
+    },
+    {
+        "id_section": "101",
+        "code_type_section": "CNAPS",
+        "nom_court_section": "Surface continentales-Océan-Atmosphère",
+        "nom_section": "Surface continentales-Océan-Atmosphère"
+    },
+    {
+        "id_section": "102",
+        "code_type_section": "INSERM",
+        "nom_court_section": "CSS1",
+        "nom_section": "Mécanismes fondamentaux du vivant"
+    },
+    {
+        "id_section": "103",
+        "code_type_section": "INSERM",
+        "nom_court_section": "CSS2",
+        "nom_section": "Maladies génétiques et du développement, cancérologie, hématologie"
+    },
+    {
+        "id_section": "104",
+        "code_type_section": "INSERM",
+        "nom_court_section": "CSS3",
+        "nom_section": "Physiologie et physiopathologie des grands systèmes"
+    },
+    {
+        "id_section": "105",
+        "code_type_section": "INSERM",
+        "nom_court_section": "CSS4",
+        "nom_section": "Neurosciences"
+    },
+    {
+        "id_section": "106",
+        "code_type_section": "INSERM",
+        "nom_court_section": "CSS5",
+        "nom_section": "Immunité, Infection"
+    },
+    {
+        "id_section": "107",
+        "code_type_section": "INSERM",
+        "nom_court_section": "CSS6",
+        "nom_section": "Santé publique, Technologies de la Biomatériaux , Ingénierie tissulaire santé"
+    }
+]

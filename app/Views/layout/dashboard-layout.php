@@ -86,7 +86,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                 </a>
                                 <ul class="nav nav-treeview ml-2">
                                     <li class="nav-item">
-                                        <a href="<?= route_to('create_compte'); ?>" class="nav-link <?= (current_url() == base_url('create_compte')) ? 'active' : ''; ?>" title="Ajouter un nouvel arrivant pour qu'il puisse se connecter et renseigner ces données">
+                                        <a href="<?= base_url('comptes/createOrUpdateCompte'); ?>" class="nav-link <?= (current_url() == base_url('comptes/createOrUpdateCompte')) ? 'active' : ''; ?>" title="Ajouter un nouvel arrivant pour qu'il puisse se connecter et renseigner ces données">
                                             <i class="fa fa-plus nav-icon"></i>
                                             <p>Nouveau compte</p>
                                         </a>

@@ -1,0 +1,18 @@
+[
+    {
+        "code_type_section": "CNRS",
+        "nom_type_section": "Centre National de la Recherche Scientifique"
+    },
+    {
+        "code_type_section": "CNU",
+        "nom_type_section": "Conseil National des Universités"
+    },
+    {
+        "code_type_section": "CNAPS",
+        "nom_type_section": "Conseil National des Activités Privées de Sécurité"
+    },
+    {
+        "code_type_section": "INSERM",
+        "nom_type_section": "Institut National de la Santé et de la Recherche Médicale"
+    }
+]

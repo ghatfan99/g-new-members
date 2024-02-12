@@ -1,0 +1,187 @@
+[
+    {
+        "id_discipline": "1",
+        "code_discipline": "ST1",
+        "discipline": " Mathématiques"
+    },
+    {
+        "id_discipline": "2",
+        "code_discipline": "ST2 ",
+        "discipline": "Physique"
+    },
+    {
+        "id_discipline": "3",
+        "code_discipline": "ST3 ",
+        "discipline": "Sciences de la terre et de l'univers"
+    },
+    {
+        "id_discipline": "4",
+        "code_discipline": "ST4 ",
+        "discipline": "Chimie"
+    },
+    {
+        "id_discipline": "5",
+        "code_discipline": "ST5",
+        "discipline": " Sciences pour l'ingénieur"
+    },
+    {
+        "id_discipline": "6",
+        "code_discipline": "ST6 ",
+        "discipline": "Sciences et technologies de l'information et de la communication"
+    },
+    {
+        "id_discipline": "7",
+        "code_discipline": "SVE1_LS1",
+        "discipline": "Biologie moléculaire et structurale, biochimie"
+    },
+    {
+        "id_discipline": "8",
+        "code_discipline": "SVE1_LS2",
+        "discipline": "Génétique, génomique, bioinformatique"
+    },
+    {
+        "id_discipline": "9",
+        "code_discipline": "SVE1_LS3",
+        "discipline": "Biologie cellulaire, biologie du développement animal"
+    },
+    {
+        "id_discipline": "10",
+        "code_discipline": "SVE1_LS4",
+        "discipline": "Physiologie, physiopathologie, biologie systémique médicale"
+    },
+    {
+        "id_discipline": "11",
+        "code_discipline": "SVE1_LS5",
+        "discipline": "Neurobiologie"
+    },
+    {
+        "id_discipline": "12",
+        "code_discipline": "SVE1_LS6",
+        "discipline": "Immunologie, microbiologie, virologie, parasitologie"
+    },
+    {
+        "id_discipline": "13",
+        "code_discipline": "SVE1_LS7",
+        "discipline": "Épidémiologie, santé publique, recherche clinique, technologies biomédicales"
+    },
+    {
+        "id_discipline": "14",
+        "code_discipline": "SVE2_LS3",
+        "discipline": "Biologie cellulaire et biologie du développement végétal"
+    },
+    {
+        "id_discipline": "15",
+        "code_discipline": "SVE2_LS8",
+        "discipline": "Evolution, écologie, biologie des populations"
+    },
+    {
+        "id_discipline": "16",
+        "code_discipline": "SVE2_LS9",
+        "discipline": "Biotechnologies, sciences environnementales, biologie synthétique, agronomie"
+    },
+    {
+        "id_discipline": "17",
+        "code_discipline": "SHS1_1",
+        "discipline": "Économie"
+    },
+    {
+        "id_discipline": "18",
+        "code_discipline": "SHS1_2",
+        "discipline": "Finance, management"
+    },
+    {
+        "id_discipline": "19",
+        "code_discipline": "SHS2_1",
+        "discipline": "Droit"
+    },
+    {
+        "id_discipline": "20",
+        "code_discipline": "SHS2_2",
+        "discipline": "Science politique"
+    },
+    {
+        "id_discipline": "21",
+        "code_discipline": "SHS2_3",
+        "discipline": "Anthropologie et éthologie"
+    },
+    {
+        "id_discipline": "22",
+        "code_discipline": "SHS2_4",
+        "discipline": "Sociologie, démographie"
+    },
+    {
+        "id_discipline": "23",
+        "code_discipline": "SHS2_5",
+        "discipline": "Sciences de l'information et de la communication"
+    },
+    {
+        "id_discipline": "24",
+        "code_discipline": "SHS3_1",
+        "discipline": "Géographie"
+    },
+    {
+        "id_discipline": "25",
+        "code_discipline": "SHS3_2",
+        "discipline": "Aménagement et urbanisme"
+    },
+    {
+        "id_discipline": "26",
+        "code_discipline": "SHS3_3",
+        "discipline": "Architecture"
+    },
+    {
+        "id_discipline": "27",
+        "code_discipline": "SHS4_1",
+        "discipline": "Linguistique"
+    },
+    {
+        "id_discipline": "28",
+        "code_discipline": "SHS4_2",
+        "discipline": "Psychologie"
+    },
+    {
+        "id_discipline": "29",
+        "code_discipline": "SHS4_3",
+        "discipline": "Sciences de l'éducation"
+    },
+    {
+        "id_discipline": "30",
+        "code_discipline": "SHS4_4",
+        "discipline": "Sciences et techniques des activités physiques et sportives"
+    },
+    {
+        "id_discipline": "31",
+        "code_discipline": "SHS5_1",
+        "discipline": "Langues/littératures ancienne et françaises, littérature comparée"
+    },
+    {
+        "id_discipline": "32",
+        "code_discipline": "SHS5_2",
+        "discipline": "Littératures et langues étrangères, civilisations, cultures et langues régionales"
+    },
+    {
+        "id_discipline": "33",
+        "code_discipline": "SHS5_3",
+        "discipline": "Arts"
+    },
+    {
+        "id_discipline": "34",
+        "code_discipline": "SHS5_4",
+        "discipline": "Philosophie, sciences des religions, théologie"
+    },
+    {
+        "id_discipline": "35",
+        "code_discipline": "SHS6_1",
+        "discipline": "Histoire"
+    },
+    {
+        "id_discipline": "36",
+        "code_discipline": "SHS6_2",
+        "discipline": "Histoire de l'art"
+    },
+    {
+        "id_discipline": "37",
+        "code_discipline": "SHS6_3",
+        "discipline": "Archéologie"
+    }
+]
