@@ -3,8 +3,9 @@
 namespace App\Models;
 
 use CodeIgniter\Model;
+use Faker\Provider\Base;
 
-class IpostdocUsersModel extends Model
+class IpostdocUsersModel extends BaseModel
 {
     protected $table            = 'ipostdoc_users';
     protected $primaryKey       = 'ipostdoc_id_user';

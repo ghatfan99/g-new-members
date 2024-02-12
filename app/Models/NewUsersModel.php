@@ -3,8 +3,9 @@
 namespace App\Models;
 
 use CodeIgniter\Model;
+use Faker\Provider\Base;
 
-class NewUsersModel extends Model
+class NewUsersModel extends BaseModel
 {
     protected $table            = 'users';
     protected $primaryKey       = 'id_user';

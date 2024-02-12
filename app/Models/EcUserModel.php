@@ -3,8 +3,9 @@
 namespace App\Models;
 
 use CodeIgniter\Model;
+use Faker\Provider\Base;
 
-class EcUserModel extends Model
+class EcUserModel extends BaseModel
 {
     protected $table            = 'ch_ec_users';
     protected $primaryKey       = 'ch_ec_id_user';
