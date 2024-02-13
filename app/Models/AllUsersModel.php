@@ -45,20 +45,15 @@ class AllUsersModel extends BaseModel
         'auth_photo_ext'    => 'permit_empty|in_list[0,1]',
         'id_user'           => 'required|integer|is_unique[all_users.id_user]'
     ];
-    protected $validationMessages   = [];
-    protected $skipValidation       = false;
-    protected $cleanValidationRules = true;
 
-    // Callbacks
-    protected $allowCallbacks = true;
-    protected $beforeInsert   = [];
-    protected $afterInsert    = [];
-    protected $beforeUpdate   = [];
-    protected $afterUpdate    = [];
-    protected $beforeFind     = [];
-    protected $afterFind      = [];
-    protected $beforeDelete   = [];
-    protected $afterDelete    = [];
+    // sauvegarde des données
+    public function saveData($data)
+    {
+        if (!empty($data)) {
+            return $this->insert($data);
+        }
+        return false;
+    }
 
     // Autres méthodes
     // Obtenir tous les utilisateurs avec type phd

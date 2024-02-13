@@ -30,7 +30,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
-                    <a href="index3.html" class="nav-link">Accueil</a>
+                    <?php if (session()->get('role') === 't') : ?>
+                        <a href="<?= base_url('comptes/') ?>" class=" nav-link">Accueil</a>
+                    <?php else : ?>
+                        <a href="<?= base_url('/user') ?>" class=" nav-link">Accueil</a>
+                    <?php endif; ?>
                 </li>
             </ul>
 
@@ -50,11 +54,17 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <!-- Main Sidebar Container -->
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
-            <a href="index3.html" class="brand-link">
-                <span class="brand-text font-weight-bold">
-                    Nouveaux arrivants
-                </span>
-            </a>
+            <?php if (session()->get('role') === 't') : ?>
+                <a href="<?= base_url('comptes/') ?>" class=" brand-link"><span class="brand-text font-weight-bold">
+                        Nouveaux arrivants
+                    </span>
+                </a>
+            <?php else : ?>
+                <a href="<?= base_url('/user') ?>" class=" brand-link"><span class="brand-text font-weight-bold">
+                        Nouveaux arrivants
+                    </span>
+                </a>
+            <?php endif; ?>
 
             <!-- Sidebar -->
             <div class="sidebar">

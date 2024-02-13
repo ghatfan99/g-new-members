@@ -4,7 +4,7 @@
 <div class="col mx-auto my-auto">
     <div class="card-body">
         <div class="col col-md-8 mx-auto my-auto">
-            <form action="<?= base_url('comptes/createOrUpdateCompte/' . ($user_info['id_user'] ?? '')); ?>" method="POST" autocomplete="off">
+            <form action="<?= base_url('comptes/save_update_compte/' . ($user_info['id_user'] ?? '')); ?>" method="POST" autocomplete="off">
                 <?= csrf_field(); ?>
 
                 <!--  ********* View success and fail messages ******** -->
@@ -50,7 +50,7 @@
                     <label for="dateDebut">
                         Date début :<span class="required">*</span>
                     </label>
-                    <input type="date" class="form-control" id="dateDebut" placeholder="Entrez la date de début du séjour" name="dateDebut" value="<?= set_value('dateDebut'); ?>" />
+                    <input type="date" class="form-control" id="dateDebut" placeholder="Entrez la date de début du séjour" name="dateDebut" value="<?= $user_info['date_debut'] ?? set_value('date_debut'); ?>" />
                     <span class="text-danger"><?= isset($validation) ? display_error($validation, 'dateDebut') : ''; ?></span>
                 </div>
                 <!-- ******************** -->
@@ -60,7 +60,7 @@
                     <label for="dateFin">
                         Date fin :<span class="required">*</span>
                     </label>
-                    <input type="date" class="form-control" id="dateFin" placeholder="Entrez la date de fin du séjour" name="dateFin" value="<?= set_value('dateFin'); ?>" />
+                    <input type="date" class="form-control" id="dateFin" placeholder="Entrez la date de fin du séjour" name="dateFin" value="<?= $user_info['date_fin'] ?? set_value('date_fin'); ?>" />
                     <span class="text-danger"><?= isset($validation) ? display_error($validation, 'dateFin') : ''; ?></span>
                 </div>
                 <!-- ******************** -->
@@ -87,10 +87,10 @@
 
                 <!-- Le compte est actif par defaut -->
                 <div class="form-check" title="Préciser si le compte utilisateur est actif où non, pour se connecter à l'application il faut que le compte soit actif">
-                    <input type="checkbox" class="form-check-input" id="actif" name="actif" <?= isset($user_info['actif']) && $user_info['actif'] === 't' ? 'checked' : ''; ?>>
+                    <input type="checkbox" class="form-check-input" id="actif" name="actif" <?= ($operation === 'create') ? 'checked' : (isset($user_info['actif']) && $user_info['actif'] === 't' ? 'checked' : ''); ?>>
                     <label class="form-check-label" for="actif">
                         <strong>
-                            Compte actif
+                            Compte actif <?php echo $operation; ?>
                         </strong>
                     </label>
                 </div>

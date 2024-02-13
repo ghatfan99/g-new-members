@@ -4,7 +4,7 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class PhdUsersModel extends BaseModel
+class PhdUserModel extends BaseModel
 {
     protected $table            = 'phd_users';
     protected $primaryKey       = 'phd_id_user';

@@ -54,23 +54,6 @@ class Comptes extends BaseController
      * Mettre à jour un compte
      * Affichier tous les comptes
      */
-    public function create_compte(): string
-    {
-        $this->data['pageTitle'] = 'Nouveau compte';
-        // return view('comptes/create_compte', $this->data);
-        return view('comptes/create_update_compte', $this->data);
-    }
-
-    public function edit_compte($id_user): string
-    {
-        $compte = new NewUsersModel();
-        $data['user_info'] = $compte->where('id_user', $id_user)->first();
-
-        // echo "update method " . $id_user;
-        $this->data['pageTitle'] = 'Mise à jour du compte';
-        return view('comptes/create_update_compte', $data);
-    }
-
     public function comptes(): string
     {
         $this->data['pageTitle'] = 'Liste de comptes';
@@ -277,6 +260,26 @@ class Comptes extends BaseController
     // Créer ou modifier un compte utilisateur
     public function createOrUpdateCompte($id_user = null)
     {
+        $data = [];
+        if ($id_user) {
+
+            $compte = new NewUsersModel();
+            $data['user_info'] = $compte->where('id_user', $id_user)->first();
+            $data['operation'] = 'update';
+
+            // echo "update method " . $id_user;
+            $data['pageTitle'] = 'Mise à jour du compte';
+        } else {
+            $data['pageTitle'] = 'Nouveau compte';
+            $data['operation'] = 'create';
+        }
+        $view = 'comptes/create_update_compte';
+        // Render the view with data
+        return view($view, $data);
+    }
+
+    public function save_update_compte($id_user = null)
+    {
         // Your common validation rules
         $validationRules = [
             'nom' => [
@@ -326,12 +329,12 @@ class Comptes extends BaseController
         ];
 
         $validation = $this->validate($validationRules);
-
         if ($validation) {
-            echo "user id : " . $id_user . " validation okay";
-            exit;
             // If validation passes, proceed with data handling
             $compteModel = new NewUsersModel();
+            // créer un token
+            $randomBytes = random_bytes(32);
+            $token = bin2hex($randomBytes);
 
             // Prepare data array
             $data = [
@@ -342,22 +345,52 @@ class Comptes extends BaseController
                 'date_fin' => $this->request->getPost('dateFin'),
                 'role' => isset($_POST['admin']) && $this->request->getPost('admin') !== '' ? 't' : 'f',
                 'actif' => isset($_POST['actif']) && $this->request->getPost('actif') !== '' ? 't' : 'f',
-                'na_status' => $this->request->getPost('statutOptions')
+                'na_status' => $this->request->getPost('statutOptions'),
+                'token' => $token
             ];
-
             // Data specific to update
             if ($id_user) {
                 $data['id_user'] = $id_user;
                 $result = $compteModel->set($data)->where('id_user', $id_user)->update();
                 $redirectMessage = 'Le compte a été mis à jour avec succès.';
             } else {
-                // Insert new compte
                 $result = $compteModel->insert($data);
                 $redirectMessage = 'Le nouveau compte a été créé avec succès.';
             }
-
-            if ($result) {
+            if ($result == true) {
                 // Send email logic here
+                $url = site_url() . 'auth/register/token/' . $token;
+                $link = '<a href="' . $url . '">Gscop-new-arrivals</a>';
+                $email = \Config\Services::email();
+                // Set recipient info
+                $email->setTo('hazem.hasan@grenoble-inp.fr');
+
+                // Set email subject and message
+                $email->setSubject('Subject of the Email');
+                $messageFrench = '
+                    <p>Bonjour,</p>
+                    <p>Nous sommes ravis de vous informer que votre arrivée au laboratoire est imminente.</p>
+                    <p>Avant votre arrivée, veuillez prendre quelques instants pour compléter et soumettre le formulaire en utilisant le lien suivant :' . $link . '</p>
+                    <p>Une fois sur le site, vous avez la possibilité de créer un compte en utilisant l\'adresse e-mail à laquelle vous avez reçu ce message. Ensuite, connectez-vous au site et complétez le formulaire.</p>
+                    <p>Merci et à bientôt !</p> <br> <br>';
+                $messageEnglish = '<p>Hello,</p>
+                    <p>We are pleased to inform you that your arrival at the laboratory is approaching.</p>
+                    <p>Prior to your arrival, please take a moment to complete and submit the form using the following link:' . $link . '</p>
+                    <p>After accessing the website, you can create an account using the email address to which you received this message. Then, log in to the site and fill out the form.</p>
+                    <p>Thank you and see you soon!</p>';
+                $email = send_email('hazem.hasan@grenoble-inp.fr', 'Votre arrivé au laboratoire G-SCOP', $messageFrench . $messageEnglish);
+                try {
+                    if ($email) {
+                        /**
+                         * pour diriger l'admine vers la page qui affiche les utilisateurs
+                         */
+                        return redirect()->to('/comptes')->with('success', 'Le nouveau compte a été crée avec succès.');
+                    } else {
+                        echo 'Email sending failed!';
+                    }
+                } catch (\Exception $e) {
+                    echo 'Error: ' . $e->getMessage();
+                }
 
                 // Redirect to appropriate page
                 return redirect()->to('/comptes')->with('success', $redirectMessage);

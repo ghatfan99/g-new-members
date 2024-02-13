@@ -72,4 +72,7 @@ class Paths
      * is used when no value is provided to `Services::renderer()`.
      */
     public string $viewDirectory = __DIR__ . '/../Views';
+
+    // pdf users files
+    public const PDF_USERS_FILES = FCPATH . '../pdf_users_files';
 }

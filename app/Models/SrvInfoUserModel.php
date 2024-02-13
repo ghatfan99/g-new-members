@@ -4,7 +4,7 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class SrvInfoModel extends BaseModel
+class SrvInfoUserModel extends BaseModel
 {
     protected $table            = 'srv_info';
     protected $primaryKey       = 'id_srv_info';
