@@ -19,32 +19,6 @@ class AllUsersModel extends BaseModel
         'auth_photo_ext', 'created_at', 'id_user'
     ];
 
-    // Dates
-    protected $useTimestamps = true;
-    protected $dateFormat    = 'datetime';
-    protected $createdField  = 'created_at';
-    protected $updatedField  = '';
-    protected $deletedField  = '';
-
-    // Validation
-    protected $validationRules      = [
-        'user_genre'        => 'permit_empty|in_list[male,female]', // Assuming 'genre' can be 'male' or 'female'
-        'nom'               => 'required|max_length[255]',
-        'prenom'            => 'required|max_length[255]',
-        'nom_patronomique'  => 'permit_empty|max_length[300]',
-        'date_naiss'        => 'permit_empty|valid_date',
-        'ville_naiss'       => 'permit_empty|max_length[300]',
-        'num_departement'   => 'permit_empty|max_length[3]',
-        'pays_naiss'        => 'permit_empty|max_length[3]',
-        'nationalite'       => 'permit_empty|max_length[3]',
-        'adresse'           => 'permit_empty|max_length[300]',
-        'ville_cp'          => 'permit_empty|max_length[300]',
-        'pays'              => 'permit_empty|max_length[10]',
-        'tel_mobile'        => 'permit_empty|max_length[300]',
-        'auth_photo_int'    => 'permit_empty|in_list[0,1]',
-        'auth_photo_ext'    => 'permit_empty|in_list[0,1]',
-        'id_user'           => 'required|integer|is_unique[all_users.id_user]'
-    ];
 
     // sauvegarde des données
     public function saveData($data)

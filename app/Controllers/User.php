@@ -256,9 +256,7 @@ class User extends BaseController
         //************************************************************ */
         //************************************************************ */
         if ($this->request->getPost('save_draft') !== null) {
-            echo "save draft button is clicked, isupdate = " . $isUserExist . "<br>";
             // L'utilisateur va mettre à jour les données qui existent déjà           
-            // if ($isUpdate) {
             if ($isUserExist) {
                 // echo "update draft method, draft already exist";
                 $sharedResult = $allUsersModel->set($sharedData)->where('id_user', $this->logged_user_id)->update();
@@ -510,18 +508,15 @@ class User extends BaseController
                              * Afin d'empêcher l'utilisateur de se reconnecter à l'application, on met son
                              * compte actif à false avant de le rediriger vers la page de confirmation
                              *  */
-                            //                            var_dump($new_user_data);
-                            //                            exit;
                             $pdfRH = generatePdfRH($new_user_data, $status);
                             $pdfSI = generatePdfSI($new_user_data, $status);
                             $file_path = Paths::PDF_USERS_FILES;
-                            $name_file_rh = $file_path . 'service_rh_' . $nom . '_' . $prenom . '.pdf';
-                            $name_file_info = $file_path . 'service_info_' . $nom . '_' . $prenom . '.pdf';
+                            $name_file_rh = $file_path . '/service_rh_' . $nom . '_' . $prenom . '.pdf';
+                            $name_file_info = $file_path . '/service_info_' . $nom . '_' . $prenom . '.pdf';
                             if (is_dir($file_path)) {
                                 if ($pdfSI->Output($name_file_info, 'F') === false || $pdfRH->Output($name_file_rh, 'F') === false) {
                                     echo "Pdf generation failed. check for errors";
                                 } else {
-                                    echo "PDF generated and saved successfully!";
                                     $recipients = ['hasan_hazem@hotmail.com', 'hazem.hasan@grenoble-inp.fr'];
                                     $subject = 'Arrivée de ' . $user_genre . '. ' . ucwords($nom) . ' ' . $prenom;
                                     $message = '<p>Bonjour,</p>

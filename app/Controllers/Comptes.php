@@ -6,6 +6,8 @@ use App\Controllers\BaseController;
 use App\Models\NewUsersModel;
 
 use CodeIgniter\API\ResponseTrait;
+use Config\MyConstants;
+use PHPUnit\TextUI\XmlConfiguration\Constant;
 
 class Comptes extends BaseController
 {
@@ -367,17 +369,19 @@ class Comptes extends BaseController
 
                 // Set email subject and message
                 $email->setSubject('Subject of the Email');
-                $messageFrench = '
-                    <p>Bonjour,</p>
-                    <p>Nous sommes ravis de vous informer que votre arrivée au laboratoire est imminente.</p>
-                    <p>Avant votre arrivée, veuillez prendre quelques instants pour compléter et soumettre le formulaire en utilisant le lien suivant :' . $link . '</p>
-                    <p>Une fois sur le site, vous avez la possibilité de créer un compte en utilisant l\'adresse e-mail à laquelle vous avez reçu ce message. Ensuite, connectez-vous au site et complétez le formulaire.</p>
-                    <p>Merci et à bientôt !</p> <br> <br>';
-                $messageEnglish = '<p>Hello,</p>
-                    <p>We are pleased to inform you that your arrival at the laboratory is approaching.</p>
-                    <p>Prior to your arrival, please take a moment to complete and submit the form using the following link:' . $link . '</p>
-                    <p>After accessing the website, you can create an account using the email address to which you received this message. Then, log in to the site and fill out the form.</p>
-                    <p>Thank you and see you soon!</p>';
+                $messageFrench = MyConstants::getMessageFrench($link, 'add');
+                // $messageFrench = '
+                //     <p>Bonjour,</p>
+                //     <p>Nous sommes ravis de vous informer que votre arrivée au laboratoire est imminente.</p>
+                //     <p>Avant votre arrivée, veuillez prendre quelques instants pour compléter et soumettre le formulaire en utilisant le lien suivant :' . $link . '</p>
+                //     <p>Une fois sur le site, vous avez la possibilité de créer un compte en utilisant l\'adresse e-mail à laquelle vous avez reçu ce message. Ensuite, connectez-vous au site et complétez le formulaire.</p>
+                //     <p>Merci et à bientôt !</p> <br> <br>';
+                $messageEnglish = MyConstants::getMessageEnglish($link, 'add');
+                // $messageEnglish = '<p>Hello,</p>
+                //     <p>We are pleased to inform you that your arrival at the laboratory is approaching.</p>
+                //     <p>Prior to your arrival, please take a moment to complete and submit the form using the following link:' . $link . '</p>
+                //     <p>After accessing the website, you can create an account using the email address to which you received this message. Then, log in to the site and fill out the form.</p>
+                //     <p>Thank you and see you soon!</p>';
                 $email = send_email('hazem.hasan@grenoble-inp.fr', 'Votre arrivé au laboratoire G-SCOP', $messageFrench . $messageEnglish);
                 try {
                     if ($email) {

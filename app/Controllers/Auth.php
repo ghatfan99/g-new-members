@@ -8,6 +8,7 @@ use App\Models\NewUsersModel;
 use App\Services\UserService;
 use CodeIgniter\API\ResponseTrait;
 use CodeIgniter\HTTP\RedirectResponse;
+use CodeIgniter\HTTP\Exceptions\HTTPException;
 
 
 class Auth extends BaseController
@@ -35,17 +36,22 @@ class Auth extends BaseController
     // register page
     public function register(): string
     {
-        // Load the URI helper
-        $uri = service('uri');
-        // Get the token from the URL
-        $token = $uri->getSegment(4); // Assuming 'token' is the 4th segment in the URI
-        // Check if the token is valid
-        if ($this->isValidToken($token)) {
-            // Token is valid, proceed to registration
-            return view('auth/register');
-        } else {
-            // Token is invalid, redirect to 404 page
-            return view('errors/html/error_404');
+        try {
+            // Load the URI helper
+            $uri = service('uri');
+            // Get the token from the URL
+            $token = $uri->getSegment(4); // Assuming 'token' is the 4th segment in the URI
+            // Check if the token is valid
+            if ($this->isValidToken($token)) {
+                // Token is valid, proceed to registration
+                return view('auth/register');
+            } else {
+                // Token is invalid, redirect to 404 page
+                return view('errors/html/error_404', ['message' => 'Token is not valid']);
+            }
+        } catch (HTTPException $e) {
+            // URI segment is out of range, redirect to 404 page
+            return view('errors/html/error_404', ['message' => 'Page not found']);
         }
     }
 
@@ -160,6 +166,7 @@ class Auth extends BaseController
                     <i>Your account is not verified, please contact the HR to reactivate your account.</i>');
                     return redirect()->to('/auth')->withInput();
                 }
+
                 // tester si le compte utilisateur est actif ou non
                 $actif = $user_info['actif'];
                 if ($actif !== 't') {

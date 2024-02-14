@@ -45,4 +45,21 @@ class MyConstants
                 break;
         }
     }
+
+    public static function getMessagereactivation()
+    {
+        return
+            'Bonjour,
+                    Votre compte du site g-scop_nouveaux_arrivants a été réactivé. Vous pouvez désormais vous connecter à nouveau.                    
+                    Pour vous connecter, rendez-vous sur la page de connexion et saisissez votre adresse e-mail et votre mot de passe.
+
+                    Nous vous souhaitons une bonne utilisation de votre compte.                    
+                    L\'équipe RH
+                    
+                    Hello,                    
+                    Your g-scop_nouveaux_arrivants account has been reactivated. You can now log in again.
+                    To log in, go to the login page and enter your email address and password.
+                    We wish you a pleasant use of your account.
+                    The HR team';
+    }
 }
