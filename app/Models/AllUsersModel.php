@@ -108,7 +108,6 @@ class AllUsersModel extends BaseModel
     public function getAllDepartments()
     {
         $url = $this->getSiloseUrl() . '/departements/order/num_departement';
-        $output = $this->getDataCURL($url);
         //check array json
         if ($this->checkInStringIsJsonArray($output) == false) {
             $output = $this->convertInStringIsJsonArray($output);

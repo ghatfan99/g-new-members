@@ -10,7 +10,13 @@ CREATE SCHEMA IF NOT EXISTS n_arrivants;
 /* Les genres */
 CREATE TYPE genre AS enum ('Mme', 'Mr');
 /* Les statuts */
-CREATE TYPE status AS enum ('phd', 'ipostdoc', 'autres', 'chercheurEc');
+CREATE TYPE status AS enum (
+    'gestionrh',
+    'phd',
+    'ipostdoc',
+    'autres',
+    'chercheurEc'
+);
 /* Le systeme d'exploitation */
 CREATE TYPE sys_exp AS enum ('windows', 'linux', 'macos');
 /* ************************* */
@@ -27,9 +33,13 @@ CREATE TABLE n_arrivants.users (
     prenom varchar(255),
     password text,
     email varchar(255) UNIQUE,
+    date_debut Date,
+    date_fin Date,
     na_status status default null,
     actif boolean DEFAULT true,
     role boolean DEFAULT false,
+    token varchar(255) default null,
+    verified boolean default false,
     created_at timestamp DEFAULT current_timestamp,
     CONSTRAINT pk_users_id_user PRIMARY KEY (id_user)
 );
@@ -147,8 +157,12 @@ INSERT INTO n_arrivants.users (
         prenom,
         password,
         email,
+        date_debut,
+        date_fin,
         na_status,
-        role
+        role,
+        token,
+        verified
     )
 VALUES (
         1,
@@ -156,7 +170,11 @@ VALUES (
         'Aline',
         NULL,
         'aline@test.com',
+        '2022-12-01',
+        '2023-12-31',
         'phd',
+        false,
+        '6e205a6ec92b798da533745298d81493c887b4fd8da236c2c7af603dadf67085',
         false
     ),
     (
@@ -165,7 +183,11 @@ VALUES (
         'Angela',
         NULL,
         'angela@test.com',
+        '2022-10-01',
+        '2023-09-15',
         'ipostdoc',
+        false,
+        '0f3c58768a2fac6591ada74defadb83564d80b7ca256a471b3bb166937ed8aaa',
         false
     ),
     (
@@ -174,7 +196,11 @@ VALUES (
         'Vincent',
         NULL,
         'vincent@test.com',
+        '2021-12-01',
+        '2024-12-31',
         'chercheurEc',
+        false,
+        'e326c5e9b5d2c5ad1a154612ec70da5ab004e568ea9c8c7c5187e17091685eaf',
         false
     ),
     (
@@ -183,7 +209,11 @@ VALUES (
         'Marine',
         NULL,
         'marine@test.com',
+        '2024-06-17',
+        '2024-12-31',
         'phd',
+        false,
+        'd3d1ed8e8b037369f234ae61868ecd0b16038fdeea15e14b1b61a9b790c14d24',
         false
     ),
     (
@@ -192,15 +222,23 @@ VALUES (
         'Jhone',
         NULL,
         'jhone@test.com',
+        '2024-02-01',
+        '2024-10-30',
         'autres',
+        false,
+        '3c8567fa7aa3022cdb293777f3cb3f7036bafc5c75ea1b938cac3db786308119',
         false
     ),
     (
         100,
         'admin',
         'admin',
-        NULL,
+        '$2y$10$8/MpDY./clpuV3L4wbDOwetieq0OU56u7DJ.oEVp7AA3oh7HFPvxK',
         'admin@test.com',
+        null,
+        null,
+        'gestionrh',
+        true,
         null,
         true
     );
